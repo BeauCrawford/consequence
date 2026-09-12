@@ -76,8 +76,7 @@ $$
 and minimality requires:
 
 $$
-\pi_{\neg F}(\tau)
-=
+\pi_{\neg F}(\tau) =
 \pi_{\neg F}(\mu_F(\tau))
 $$
 
@@ -117,8 +116,7 @@ $$
 such that:
 
 $$
-\pi_{\neg F}(\tau^+)
-=
+\pi_{\neg F}(\tau^+) =
 \pi_{\neg F}(\tau^-)
 $$
 
@@ -195,8 +193,7 @@ $$
 while:
 
 $$
-\pi_{\neg F}(\tau^+)
-=
+\pi_{\neg F}(\tau^+) =
 \pi_{\neg F}(\tau^-)
 $$
 
@@ -614,8 +611,7 @@ TotalRefinement
 +
 IndependentValidity
 +
-IndependentContract
-=
+IndependentContract =
 ConstitutiveProof
 }
 $$
@@ -624,8 +620,7 @@ and:
 
 $$
 \boxed{
-DeploymentGuarantee
-=
+DeploymentGuarantee =
 ConstitutiveProof
 +
 DeclaredTCB
