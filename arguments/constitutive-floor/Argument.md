@@ -2,7 +2,7 @@
 
 ## Scope
 
-This argument applies only to claims of a **constitutive computational category**: a category whose necessary kernel is that some constitutive contract \(F\) is required for valid protected consequence to form within a formally declared scope \(Q\).
+This argument applies only to claims of a **constitutive computational category**: a category whose necessary kernel is that some constitutive contract $F$ is required for valid protected consequence to form within a formally declared scope $Q$.
 
 It does **not** attempt to adjudicate purely descriptive categories, interface classifications, or cluster categories with no necessary constitutive kernel.
 
@@ -18,17 +18,17 @@ Application of that theorem to a deployed artifact is additionally conditional o
 
 Let:
 
-* \(M\) = formal model
-* \(I\) = implementation
-* \(Q\) = formally bounded model trace space
-* \(T_I\) = formally bounded implementation trace space
-* \(F_M\) = constitutive contract as independently defined over model semantics
-* \(F_I\) = constitutive contract as independently defined over implementation semantics
-* \(Valid_M\) = model-level valid protected consequence predicate
-* \(Valid_I\) = implementation's actual operational valid-consequence/commit predicate
-* \(\mu_F\) = minimal mutation that violates \(F\)
-* \(\pi_{\neg F}\) = projection of materially relevant properties other than \(F\)
-* \(\alpha:T_I\rightarrow Q\) = total implementation-to-model abstraction/refinement mapping
+* $M$ = formal model
+* $I$ = implementation
+* $Q$ = formally bounded model trace space
+* $T_I$ = formally bounded implementation trace space
+* $F_M$ = constitutive contract as independently defined over model semantics
+* $F_I$ = constitutive contract as independently defined over implementation semantics
+* $Valid_M$ = model-level valid protected consequence predicate
+* $Valid_I$ = implementation's actual operational valid-consequence/commit predicate
+* $\mu_F$ = minimal mutation that violates $F$
+* $\pi_{\neg F}$ = projection of materially relevant properties other than $F$
+* $\alpha:T_I\rightarrow Q$ = total implementation-to-model abstraction/refinement mapping
 
 ---
 
@@ -57,11 +57,11 @@ holds vacuously.
 
 # P2 — Counterfactual Scope Integrity Invariant
 
-\(Q\) must itself be a mechanically defined proof object: finite, enumerable, symbolically representable, or inductively characterized strongly enough for the closure claim to be checked.
+$Q$ must itself be a mechanically defined proof object: finite, enumerable, symbolically representable, or inductively characterized strongly enough for the closure claim to be checked.
 
 The scope must not encode the conclusion being proven.
 
-Let \(\mu_F\) be an independently defined, minimal \(F\)-violating mutation.
+Let $\mu_F$ be an independently defined, minimal $F$-violating mutation.
 
 For applicable traces:
 
@@ -132,11 +132,11 @@ $$
 \tau^-\in Q
 $$
 
-This prevents mutation closure from being vacuously satisfied because no \(F\)-violating mutation is ever considered structurally possible.
+This prevents mutation closure from being vacuously satisfied because no $F$-violating mutation is ever considered structurally possible.
 
 Therefore:
 
-> **\(Q\), \(\mu_F\), and \(\pi_{\neg F}\) are part of the proof object.**
+> **$Q$, $\mu_F$, and $\pi_{\neg F}$ are part of the proof object.**
 
 ---
 
@@ -158,13 +158,13 @@ $$
 
 P1 prevents empty/vacuous consequence formation.
 
-P2 prevents \(Q\) from being carved around inconvenient counterexamples.
+P2 prevents $Q$ from being carved around inconvenient counterexamples.
 
-P2a ensures an actual \(F\)-violating counterfactual exists for a positive witness.
+P2a ensures an actual $F$-violating counterfactual exists for a positive witness.
 
 Therefore P3 establishes:
 
-> **Within model scope \(Q\), valid protected consequence cannot form without the constitutive contract.**
+> **Within model scope $Q$, valid protected consequence cannot form without the constitutive contract.**
 
 This proves constitution **of the model**, not yet of the implementation.
 
@@ -197,7 +197,7 @@ $$
 \pi_{\neg F}(\tau^-)
 $$
 
-Since \(\tau^-\in Q\), P3 gives:
+Since $\tau^-\in Q$, P3 gives:
 
 $$
 \neg Valid_M(\tau^-)
@@ -209,7 +209,7 @@ $$
 (\tau^+,\tau^-)
 $$
 
-therefore demonstrates a **minimal local dependency** between \(F\) and consequence formation.
+therefore demonstrates a **minimal local dependency** between $F$ and consequence formation.
 
 This is not an additional premise once closure is proven. It is a concrete assurance witness.
 
@@ -217,9 +217,9 @@ This is not an additional premise once closure is proven. It is a concrete assur
 
 # P4 — Implementation Scope Integrity and Total Refinement Invariant
 
-Define a mechanically explicit implementation scope \(T_I\).
+Define a mechanically explicit implementation scope $T_I$.
 
-Its membership criterion must obey the same F-blind discipline as \(Q\). Relevant \(F_I\)-violating traces cannot simply be excluded by definition.
+Its membership criterion must obey the same F-blind discipline as $Q$. Relevant $F_I$-violating traces cannot simply be excluded by definition.
 
 The abstraction map must be total:
 
@@ -302,7 +302,7 @@ This is a genuine refinement obligation.
 
 # P6a — Independent Operational Validity Invariant
 
-\(Valid_I\) must be specified from the implementation's **actual operational consequence/commit semantics**.
+$Valid_I$ must be specified from the implementation's **actual operational consequence/commit semantics**.
 
 It may not simply be defined as:
 
@@ -324,7 +324,7 @@ The model must then prove that those commits are covered.
 
 # P7 — Independent Contract and Constitutive Reflection Invariant
 
-Likewise, \(F_I\) must be specified independently from \(\alpha\), using implementation-level semantics.
+Likewise, $F_I$ must be specified independently from $\alpha$, using implementation-level semantics.
 
 Forbidden:
 
@@ -334,7 +334,7 @@ $$
 
 Otherwise the constitutive property would be manufactured by the abstraction used to prove it.
 
-Once \(F_I\) exists independently, the following becomes a real proof obligation:
+Once $F_I$ exists independently, the following becomes a real proof obligation:
 
 $$
 F_M(\alpha(t))
@@ -483,7 +483,7 @@ It does **not** establish constitution.
 
 ### 2. Minimal Local Dependency
 
-Changing only \(F\) changes consequence formation:
+Changing only $F$ changes consequence formation:
 
 $$
 F(\tau^+)\land Valid(\tau^+)
@@ -497,7 +497,7 @@ $$
 
 This establishes dependency for the tested counterfactual pair.
 
-It does **not** establish closure over all of \(Q\).
+It does **not** establish closure over all of $Q$.
 
 ### 3. Model Closure
 
@@ -507,11 +507,11 @@ $$
 Valid_M(\tau)\rightarrow F_M(\tau)
 $$
 
-This establishes constitution of the model over \(Q\).
+This establishes constitution of the model over $Q$.
 
 ### 4. Implementation Refinement
 
-Every claim-scoped implementation trace maps into \(Q\), implementation validity is independently defined, the constitutive implementation contract is independently defined, and refinement preserves both.
+Every claim-scoped implementation trace maps into $Q$, implementation validity is independently defined, the constitutive implementation contract is independently defined, and refinement preserves both.
 
 This establishes:
 
@@ -557,7 +557,7 @@ Q
 }
 $$
 
-because \(Q\) determines what closure means.
+because $Q$ determines what closure means.
 
 $$
 \boxed{
@@ -573,7 +573,7 @@ $$
 }
 $$
 
-because the witness must isolate \(F\) rather than break unrelated machinery.
+because the witness must isolate $F$ rather than break unrelated machinery.
 
 $$
 \boxed{
@@ -685,10 +685,10 @@ $$
 
 Anyone claiming a **formally established constitutive computational Floor** can satisfy the standard by providing:
 
-1. A precise necessary constitutive property \(F\).
-2. A mechanically bounded scope \(Q\).
+1. A precise necessary constitutive property $F$.
+2. A mechanically bounded scope $Q$.
 3. A positive consequence-forming witness.
-4. An applicable minimal \(F\)-violating counterfactual.
+4. An applicable minimal $F$-violating counterfactual.
 5. Scope-wide model closure.
 6. A total implementation-to-model refinement map.
 7. An independently specified operational validity predicate.
