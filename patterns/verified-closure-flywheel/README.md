@@ -2,6 +2,8 @@
 
 **AI searches. Verification admits. Closure compounds.**
 
+![](./images/verified-closure-flywheel-01.png)
+
 Most teams are using AI to generate more code.
 
 A more interesting use is to make the system progressively harder to break.
@@ -368,3 +370,9 @@ Closure compounds.**
 Don't use AI just to generate more code.
 
 Use it to continuously search for a **smaller invalid reachable universe**.
+
+---
+
+## REFERENCES
+
+- [TLA+ home page — Leslie Lamport](https://lamport.azurewebsites.net/tla/tla.html) — Primary-source overview, learning resources, and links to the TLC model checker and TLAPS proof system.
