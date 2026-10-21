@@ -33,14 +33,14 @@ For example, a system that permits an authorized payment can satisfy Topological
 
 Let $q_{\mathrm{unauth}}$ denote an occurrence of $q$ that lacks authorization under independently established governing semantics at effect commitment. Within the same model, initial states, scope, assumptions, and horizon:
 
-$$
+```math
 \begin{aligned}
-&\operatorname{TopologicalZero}(q,\ldots)\\
-&\land\;\operatorname{SoundIndependentAdmission}(B,q)\\
-&\land\;\operatorname{CurrentEffectBoundAuthorization}(B,q)\\
-&\Longrightarrow\operatorname{StructuralZero}(q_{\mathrm{unauth}},\ldots).
+&\mathrm{TopologicalZero}(q,\ldots)\\
+&\land\;\mathrm{SoundIndependentAdmission}(B,q)\\
+&\land\;\mathrm{CurrentEffectBoundAuthorization}(B,q)\\
+&\Longrightarrow\mathrm{StructuralZero}(q_{\mathrm{unauth}},\ldots).
 \end{aligned}
-$$
+```
 
 Here, $B$ is the set of independently governed enforcement boundaries. Sound admission must apply to every occurrence, with current authorization bound to the actual effect at its execution boundary, including external delivery. Deployed claims also require verified model correspondence. See the [Topological Zero composition requirements](../topological-zero/README.md#composition-theorem--when-mediation-can-establish-structural-zero).
 
@@ -80,13 +80,13 @@ VERIFIED PROOF / CERTIFICATE
 - **Identifier:** `STRUCTURAL_ZERO_CONSEQUENCE_UNREACHABILITY`
 - **Type:** `ReachabilityInvariant`
 
-$$
+```math
 \begin{aligned}
-&\operatorname{StructuralZero}(q, M, S_0, \Omega, h) \\
-&\quad\iff \forall s \in S_0,\; \forall \tau \in \operatorname{Cont}(M, s, \Omega, h): \\
-&\qquad \neg \operatorname{Occurs}(q, \tau).
+&\mathrm{StructuralZero}(q, M, S_0, \Omega, h) \\
+&\quad\iff \forall s \in S_0,\; \forall \tau \in \mathrm{Cont}(M, s, \Omega, h): \\
+&\qquad \neg \mathrm{Occurs}(q, \tau).
 \end{aligned}
-$$
+```
 
 | Symbol | Meaning |
 | --- | --- |
@@ -95,8 +95,8 @@ $$
 | $S_0$ | The set of admissible initial states covered by the claim. |
 | $\Omega$ | The declared system scope and environment assumptions. |
 | $h$ | A fixed horizon in explicitly declared units: transitions or elapsed time. Elapsed-time claims require a timed model. |
-| $\operatorname{Cont}(M, s, \Omega, h)$ | All admissible execution prefixes through the horizon, including executions that terminate earlier. |
-| $\operatorname{Occurs}(q, \tau)$ | The specified consequence occurs anywhere along execution $\tau$, rather than only in its final state. |
+| $\mathrm{Cont}(M, s, \Omega, h)$ | All admissible execution prefixes through the horizon, including executions that terminate earlier. |
+| $\mathrm{Occurs}(q, \tau)$ | The specified consequence occurs anywhere along execution $\tau$, rather than only in its final state. |
 
 ## Minimal invariant kernel
 

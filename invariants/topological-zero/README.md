@@ -57,23 +57,23 @@ STRUCTURAL ZERO FOR UNAUTHORIZED EFFECTS
 - **Identifier:** `TOPOLOGICAL_ZERO_NO_UNMEDIATED_PROTECTED_EFFECT_PATH`
 - **Type:** `PathMediationInvariant`
 
-$$
+```math
 \begin{aligned}
-&\operatorname{TopologicalZero}(q,M,S_0,\Omega,h,B)\\
-&\quad\iff \forall s\in S_0,\; \forall\tau\in\operatorname{Cont}(M,s,\Omega,h):\\
-&\qquad \operatorname{Occurs}(q,\tau)\Rightarrow
-  \operatorname{EffectMediated}_{B}(q,\tau).
+&\mathrm{TopologicalZero}(q,M,S_0,\Omega,h,B)\\
+&\quad\iff \forall s\in S_0,\; \forall\tau\in\mathrm{Cont}(M,s,\Omega,h):\\
+&\qquad \mathrm{Occurs}(q,\tau)\Rightarrow
+  \mathrm{EffectMediated}_{B}(q,\tau).
 \end{aligned}
-$$
+```
 
-Equivalently, with $\operatorname{ProducingPaths}_q$ denoting the covered effect-producing causal paths:
+Equivalently, with $\mathrm{ProducingPaths}_q$ denoting the covered effect-producing causal paths:
 
-$$
+```math
 \boxed{
-\{\pi\in\operatorname{ProducingPaths}_q:\neg\operatorname{EffectMediated}_{B}(q,\pi)\}
+\{\pi\in\mathrm{ProducingPaths}_q:\neg\mathrm{EffectMediated}_{B}(q,\pi)\}
 =\varnothing
 }
-$$
+```
 
 | Symbol | Meaning |
 | --- | --- |
@@ -83,9 +83,9 @@ $$
 | $\Omega$ | Declared effect boundary, sources, external behavior, failure assumptions, and trusted computing base. |
 | $h$ | The declared transition-count or elapsed-time horizon; timed claims require a timed model. |
 | $B$ | The independently governed enforcement mechanisms proven to control the relevant effect capabilities. |
-| $\operatorname{Cont}(M,s,\Omega,h)$ | Every covered continuation from $s$ through the horizon, including capability changes and shorter terminated executions. |
-| $\operatorname{Occurs}(q,\tau)$ | The protected consequence occurs anywhere in the continuation. |
-| $\operatorname{EffectMediated}_{B}(q,\tau)$ | Every causal route realizing that occurrence necessarily crosses effective, non-bypassable custody controlling the **exact committed effect**, under the declared trust assumptions. |
+| $\mathrm{Cont}(M,s,\Omega,h)$ | Every covered continuation from $s$ through the horizon, including capability changes and shorter terminated executions. |
+| $\mathrm{Occurs}(q,\tau)$ | The protected consequence occurs anywhere in the continuation. |
+| $\mathrm{EffectMediated}_{B}(q,\tau)$ | Every causal route realizing that occurrence necessarily crosses effective, non-bypassable custody controlling the **exact committed effect**, under the declared trust assumptions. |
 
 **Mediation is stronger than seeing a checkpoint in an application diagram.** A boundary is effective only if the actual protected capability is inaccessible through alternative routes, and an authorized decision cannot be substituted, redirected, or reused for a different effect. Whether its *permission decision is semantically correct* is a separate obligation.
 
@@ -133,7 +133,7 @@ A formal model establishes properties of **that model**. Transferring the result
 | --- | --- | --- |
 | **Question** | Can this specified consequence occur at all? | Can this protected consequence occur *without* mandatory enforcement? |
 | **Zero set** | All covered continuations producing the specified effect. | Covered effect-producing paths that bypass effective enforcement. |
-| **Formal property** | $\forall\tau:\neg\operatorname{Occurs}(q,\tau)$. | $\forall\tau:\operatorname{Occurs}(q,\tau)\Rightarrow\operatorname{EffectMediated}_{B}(q,\tau)$. |
+| **Formal property** | $\forall\tau:\neg\mathrm{Occurs}(q,\tau)$. | $\forall\tau:\mathrm{Occurs}(q,\tau)\Rightarrow\mathrm{EffectMediated}_{B}(q,\tau)$. |
 | **Permitted effects** | The specified effect is unreachable, whether it is legitimate or not. | Legitimately admitted effects can still be reachable through the governed boundary. |
 | **Possible cause** | Governance, outage, resource absence, or another constraint. | Exclusive custody and complete consequential path mediation. |
 | **Guarantee not supplied alone** | The reason for unreachability or evidence of working authorization. | Correctness of governing law, standing, or admission decisions. |
@@ -145,16 +145,16 @@ Let $q_{\mathrm{unauth}}$ mean *the protected effect occurs when applicable stan
 
 Within a fixed model, scope, and horizon:
 
-$$
+```math
 \boxed{
 \begin{aligned}
-&\operatorname{TopologicalZero}(q,\ldots)\\
-&\land\;\operatorname{SoundIndependentAdmission}(B,q)\\
-&\land\;\operatorname{CurrentEffectBoundAuthorization}(B,q)\\
-&\Longrightarrow\operatorname{StructuralZero}(q_{\mathrm{unauth}},\ldots)
+&\mathrm{TopologicalZero}(q,\ldots)\\
+&\land\;\mathrm{SoundIndependentAdmission}(B,q)\\
+&\land\;\mathrm{CurrentEffectBoundAuthorization}(B,q)\\
+&\Longrightarrow\mathrm{StructuralZero}(q_{\mathrm{unauth}},\ldots)
 \end{aligned}
 }
-$$
+```
 
 This implication additionally depends on trustworthy model-to-deployment correspondence and the completeness assumptions shared by both proofs. Correct admission must hold across **every** covered effect-producing continuation; a single successful refusal test is insufficient.
 
