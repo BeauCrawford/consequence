@@ -376,3 +376,7 @@ Use it to continuously search for a **smaller invalid reachable universe**.
 ## REFERENCES
 
 - [TLA+ home page — Leslie Lamport](https://lamport.azurewebsites.net/tla/tla.html) — Primary-source overview, learning resources, and links to the TLC model checker and TLAPS proof system.
+
+---
+
+© 2026 Beau Crawford

@@ -778,3 +778,7 @@ $$
 And the governing meta-principle:
 
 > **Never claim above the highest assurance rung your evidence has actually earned.**
+
+---
+
+© 2026 Beau Crawford

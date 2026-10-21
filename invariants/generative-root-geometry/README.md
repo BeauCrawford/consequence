@@ -255,3 +255,7 @@ The three-part kernel is **minimal by the chosen architecture's modeling commitm
 **Distinction permits variation. Relation permits composition. Continuity preserves the path back to origin.**
 
 **Generation moves outward. Understanding traces inward. Neither ancestry nor appearance can authorize consequence without an independently established governing boundary.**
+
+---
+
+© 2026 Beau Crawford

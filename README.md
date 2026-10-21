@@ -11,3 +11,7 @@ Copyright 2026 Beau Crawford.
 - Third-party material retains its own license terms and notices.
 
 See [Licensing](LICENSE.md) for scope and attribution guidance, and [NOTICE](NOTICE) for software attribution.
+
+---
+
+© 2026 Beau Crawford

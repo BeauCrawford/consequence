@@ -199,3 +199,7 @@ OBSERVE STRUCTURE
 **AI searches.  
 Verification admits.  
 Closure compounds.**
+
+---
+
+© 2026 Beau Crawford

@@ -157,3 +157,7 @@ Constitutive Authority Closure can hold while legitimate protected consequences 
 > Zero is established by proving that no admissible path within the declared scope and horizon can produce the specified consequence.
 
 A refusal is a decision. Topological Zero establishes mandatory mediation. Structural Zero establishes unreachability of the specified consequence.
+
+---
+
+© 2026 Beau Crawford

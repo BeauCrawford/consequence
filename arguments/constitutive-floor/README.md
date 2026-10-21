@@ -172,3 +172,7 @@ It simply has not been formally established.
 # Governing Principle
 
 > **Never claim above the highest assurance rung your evidence has actually earned.**
+
+---
+
+© 2026 Beau Crawford

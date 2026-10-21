@@ -104,3 +104,7 @@ For external effects, the atomic record covers a durable intent and its evidence
 ## Core Invariant
 
 A Boolean may participate in authorization, but it cannot independently constitute the authority upon which execution depends.
+
+---
+
+© 2026 Beau Crawford

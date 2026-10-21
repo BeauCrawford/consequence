@@ -212,3 +212,7 @@ A successful assessment is not proof of enforcement. A working gate is not proof
 > **Eligibility must not merely be evaluated; it must be a necessary condition of every covered protected consequence.**
 
 **A decision can assert standing. Structural Standing requires the mechanism to enforce it.**
+
+---
+
+© 2026 Beau Crawford

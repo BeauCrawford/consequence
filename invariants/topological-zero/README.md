@@ -190,3 +190,7 @@ Topological Zero is a **mechanism-coverage property**. Structural Zero is an **o
 > **A REFUSE records one negative decision; it does not by itself prove that any effect path is closed. Topological Zero establishes that no covered path to a protected consequence escapes independently governed enforcement. Structural Zero establishes that the specified consequence itself is unreachable.**
 
 **Zero is a topology** means the absence of ungoverned consequential routes must be established as a property of the system's actual capability structure—not inferred from a successful refusal, a receipt, or an unchallenged observation.
+
+---
+
+© 2026 Beau Crawford

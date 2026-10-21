@@ -31,3 +31,7 @@ For software redistribution, follow Apache 2.0, including its license-copy, chan
 Third-party material retains its own terms; these defaults grant only rights the contributors can license. Preserve separate notices and identify exceptions alongside the material.
 
 The complete license texts linked above govern reuse. Copyright licensing of these materials does not confer ownership of the underlying ideas or methods.
+
+---
+
+© 2026 Beau Crawford
