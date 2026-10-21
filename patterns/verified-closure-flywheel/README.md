@@ -1,8 +1,4 @@
-# VERIFIED CLOSURE FLYWHEEL
-
-<img src="../../assets/signatures/verified-closure-flywheel.svg"
-     alt="Each circuit of the improvement loop crosses a verification boundary"
-     width="64" height="64">
+# <img src="../../assets/signatures/verified-closure-flywheel.svg" alt="" width="32" height="32"> VERIFIED CLOSURE FLYWHEEL
 
 **AI searches. Verification admits. Closure compounds.**
 

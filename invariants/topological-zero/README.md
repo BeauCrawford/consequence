@@ -1,8 +1,4 @@
-# Topological Zero
-
-<img src="../../assets/signatures/topological-zero.svg"
-     alt="Every route to the consequence crosses mandatory mediation"
-     width="64" height="64">
+# <img src="../../assets/signatures/topological-zero.svg" alt="" width="32" height="32"> Topological Zero
 
 *A derived invariant of complete consequence mediation: zero ungoverned paths to a protected effect.*
 

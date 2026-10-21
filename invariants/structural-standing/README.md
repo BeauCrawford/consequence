@@ -1,8 +1,4 @@
-# Structural Standing
-
-<img src="../../assets/signatures/structural-standing.svg"
-     alt="A consequence depends on both eligibility and sufficient evidence"
-     width="64" height="64">
+# <img src="../../assets/signatures/structural-standing.svg" alt="" width="32" height="32"> Structural Standing
 
 *A derived invariant of consequential eligibility enforcement: no covered protected effect is enabled without its applicable requirements holding.*
 

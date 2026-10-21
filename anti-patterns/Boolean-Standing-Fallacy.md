@@ -1,8 +1,4 @@
-# Boolean Standing Fallacy
-
-<img src="../assets/signatures/boolean-standing-fallacy.svg"
-     alt="A true assertion has a broken connection to its authority source"
-     width="64" height="64">
+# <img src="../assets/signatures/boolean-standing-fallacy.svg" alt="" width="32" height="32"> Boolean Standing Fallacy
 
 *A Boolean can assert authority. It cannot constitute it.*
 

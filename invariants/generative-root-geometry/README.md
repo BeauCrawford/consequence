@@ -1,8 +1,4 @@
-# Generative Root Geometry
-
-<img src="../../assets/signatures/generative-root-geometry.svg"
-     alt="Distinct descendants remain connected to one root"
-     width="64" height="64">
+# <img src="../../assets/signatures/generative-root-geometry.svg" alt="" width="32" height="32"> Generative Root Geometry
 
 *A first-class ontological specification of differentiation, relation, and continuity: many expressions, one traceable generative structure.*
 
