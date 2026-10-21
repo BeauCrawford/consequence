@@ -4,7 +4,7 @@
 
 > **Standing is structural when the mechanism makes eligibility and required decision support necessary conditions of every covered protected effect—not merely conclusions returned by an assessor.**
 
-<!-- Optional hero image: ![](./images/structural-standing.png) -->
+![](./images/Authority-Manifold.png)
 
 ## Definition
 
