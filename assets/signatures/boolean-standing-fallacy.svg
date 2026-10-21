@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Boolean Standing Fallacy</title>
+  <desc id="desc">A checked assertion box is separated from its authority source by a broken connection; its true result does not establish standing.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="32" r="5"/>
+    <path d="M16 32H25 M35 32H43"/>
+    <rect x="43" y="23" width="16" height="18" rx="1"/>
+    <path d="m46.5 32 3 3 6-7"/>
+  </g>
+</svg>

@@ -1,5 +1,9 @@
 # Structural Standing
 
+<img src="../../assets/signatures/structural-standing.svg"
+     alt="A consequence depends on both eligibility and sufficient evidence"
+     width="64" height="64">
+
 *A derived invariant of consequential eligibility enforcement: no covered protected effect is enabled without its applicable requirements holding.*
 
 > **Standing is structural when the mechanism makes eligibility and required decision support necessary conditions of every covered protected effect—not merely conclusions returned by an assessor.**

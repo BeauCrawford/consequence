@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Verified Closure Flywheel</title>
+  <desc id="desc">A directed cycle crosses a verification boundary on each circuit, representing repeated proposals subject to admission.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M37 12.6A20 20 0 1 1 32 12 M26 7 32 12 27 18"/>
+    <path d="M45 32H59" stroke-width="3.5"/>
+  </g>
+</svg>

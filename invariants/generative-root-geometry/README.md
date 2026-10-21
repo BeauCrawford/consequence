@@ -1,5 +1,9 @@
 # Generative Root Geometry
 
+<img src="../../assets/signatures/generative-root-geometry.svg"
+     alt="Distinct descendants remain connected to one root"
+     width="64" height="64">
+
 *A first-class ontological specification of differentiation, relation, and continuity: many expressions, one traceable generative structure.*
 
 > **Differentiation without severance:** a structure may differentiate, compose, transform, and acquire new properties without losing its generative origin, provided the constitutive relationships required for that origin remain intact.

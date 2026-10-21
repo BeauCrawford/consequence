@@ -1,5 +1,9 @@
 # Verified Closure Flywheel — Diagram
 
+<img src="../../assets/signatures/verified-closure-flywheel.svg"
+     alt="Each circuit of the improvement loop crosses a verification boundary"
+     width="64" height="64">
+
 > **AI searches. Verification admits. Closure compounds.**
 
 The **Verified Closure Flywheel** is a closed-loop engineering pattern for progressively reducing invalid consequential reachability while preserving required valid behavior.

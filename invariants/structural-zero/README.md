@@ -1,5 +1,9 @@
 # Structural Zero
 
+<img src="../../assets/signatures/structural-zero.svg"
+     alt="The specified consequence is disconnected from every reachable state"
+     width="64" height="64">
+
 *A derived invariant of consequence unreachability.*
 
 ![A refused route leaves alternatives; Structural Zero makes the specified consequence unreachable.](./images/REFUSE_vs_ZERO.png)

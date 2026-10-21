@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Generative Root Geometry</title>
+  <desc id="desc">A common root branches into a circle, square, and triangle, preserving continuous connections to distinct descendant forms.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 16V28 M32 28 12 45 M32 28V45 M32 28 52 44"/>
+    <circle cx="32" cy="12" r="4"/>
+    <circle cx="12" cy="49" r="4"/>
+    <rect x="28" y="45" width="8" height="8"/>
+    <path d="m52 44 5 9H47Z"/>
+  </g>
+</svg>

@@ -1,5 +1,9 @@
 # Topological Zero
 
+<img src="../../assets/signatures/topological-zero.svg"
+     alt="Every route to the consequence crosses mandatory mediation"
+     width="64" height="64">
+
 *A derived invariant of complete consequence mediation: zero ungoverned paths to a protected effect.*
 
 > **Zero is a topology:** not because no consequence was observed, but because no in-scope route can produce a protected consequence outside mandatory, independently governed enforcement.
