@@ -112,6 +112,9 @@ A complete effect blackout can satisfy the path-mediation formula **vacuously**.
 ## Semantic type and proof artifact
 
 ```csharp
+// Copyright 2026 Beau Crawford
+// SPDX-License-Identifier: Apache-2.0
+
 // Conceptual specialization; not a substitute for its verifier.
 public sealed class TopologicalZero<TConsequence>
     : PathMediationInvariant<TConsequence>

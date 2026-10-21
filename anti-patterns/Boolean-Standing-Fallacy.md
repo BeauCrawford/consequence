@@ -18,6 +18,9 @@ No Boolean may authorize consequence solely by asserting its own validity.
 Assume `IsActive` is a locally stored flag, and neither `GetCurrent()` nor `Evaluate()` validates governing authority. No commitment-time synchronization protects against revocation or dependency changes.
 
 ```
+// Copyright 2026 Beau Crawford
+// SPDX-License-Identifier: Apache-2.0
+
 var policy = Policies.GetCurrent();
 
 if (policy.IsActive)
@@ -51,6 +54,9 @@ Here, *governing geometry* is the independently constituted specification obtain
 `Capture` freezes the contract, policy executable, request, complete decision- and execution-relevant dependencies, and effect plan. Evaluation and execution are confined to that snapshot; undeclared reads or effects are blocked and abort commitment.
 
 ```
+// Copyright 2026 Beau Crawford
+// SPDX-License-Identifier: Apache-2.0
+
 var policy = Policies.GetCurrent();
 var contract = Governance.GetContract(TrustedRoot);
 var snapshot = Boundary.Capture(contract, policy, request);

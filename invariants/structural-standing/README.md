@@ -119,6 +119,9 @@ A permanently disabled system may satisfy the formal implication **vacuously**. 
 ## Semantic type and proof artifact
 
 ```csharp
+// Copyright 2026 Beau Crawford
+// SPDX-License-Identifier: Apache-2.0
+
 // Conceptual specialization; a claim object is not its own proof.
 public sealed class StructuralStanding<TConsequence>
     : StandingEnforcementInvariant<TConsequence>

@@ -116,6 +116,9 @@ Invariants 1–7 are core obligations. Invariant 8 additionally applies to claim
 ## Semantic type and proof artifact
 
 ```csharp
+// Copyright 2026 Beau Crawford
+// SPDX-License-Identifier: Apache-2.0
+
 public sealed class StructuralZero<TConsequence>
     : ReachabilityInvariant<TConsequence>
 {
