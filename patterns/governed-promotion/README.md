@@ -88,7 +88,7 @@ Qualification can be reused only while its material assumptions still hold. A re
 
 ## Activation and external systems
 
-Within a local transactional boundary, the activation change and required evidence must commit consistently. Across independent systems, do not claim one atomic deployment unless the actual protocol and participants provide it.
+[Protected Commitment](../protected-commitment/README.md) supplies the effect-boundary procedure. Within a local transactional boundary, the activation change and required evidence must commit consistently. Across independent systems, do not claim one atomic deployment unless the actual protocol and participants provide it.
 
 An external deployment intent records authorized requested work. It does not establish completed activation. Each receiver must establish current standing and enforce the relevant ordering at its own activation boundary. Its completion evidence must identify the exact definition and actual result.
 

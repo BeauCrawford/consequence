@@ -86,6 +86,8 @@ A mediated route can enforce an unauthorized contract. A correct executable can 
 
 ## Local and external commitment
 
+[Protected Commitment](../../patterns/protected-commitment/README.md) is an implementation pattern for these obligations; the closure claim still requires evidence that its actual mechanisms compose correctly.
+
 At a local boundary, consequence and required evidence must be recorded under the same enforceable commitment semantics. A receipt or later signature attests a record; it cannot supply missing authority or retroactively prevent an effect.
 
 For external work, the first commitment may cover only an authorized intent. The receiving system must establish current standing and control the actual effect under the relevant ordering, with fencing and duplicate-effect prevention appropriate to the operation. Completion evidence is separate. If the receiver cannot meet these obligations, the end-to-end closure claim is unsupported and the dependent protected effect must not proceed.

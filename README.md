@@ -32,6 +32,7 @@ Architectural specifications, invariants, models, patterns, anti-patterns, and a
 
 | Geometry | Title | Tagline | Description |
 | :---: | --- | --- | --- |
+| <img src="assets/signatures/protected-commitment.svg" alt="" width="32" height="32"> | [Protected Commitment](patterns/protected-commitment/README.md) | Current standing and durable evidence meet at consequence. | Binds qualification to actual effect control, coupling local consequences or external intents with evidence and requiring standing again at receiver commitment. |
 | <img src="assets/signatures/governed-promotion.svg" alt="" width="32" height="32"> | [Governed Promotion](patterns/governed-promotion/README.md) | Publication identifies. Governed activation authorizes use. | Binds, qualifies, authorizes, and activates an exact change while preserving obligations through migration, concurrency, and recovery. |
 | <img src="assets/signatures/verified-closure-flywheel.svg" alt="" width="32" height="32"> | [Verified Closure Flywheel](patterns/verified-closure-flywheel/README.md) | AI searches. Verification admits. Closure compounds. | Uses traces, model checking, and verified structural changes to reduce invalid reachability while preserving legitimate behavior. |
 

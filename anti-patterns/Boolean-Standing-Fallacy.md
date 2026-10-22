@@ -50,6 +50,8 @@ if (policy.IsActive)
 
 ## Corrected Version
 
+This example illustrates the [Protected Commitment](../patterns/protected-commitment/README.md) pattern.
+
 Here, *governing geometry* is the independently constituted specification obtained from trusted governance, never the executable's self-description. `Geometry.Verify` establishes that the exact policy executable conforms to that specification for the captured inputs and effects. [Semantic Conformance](../invariants/semantic-conformance/README.md) defines this obligation and the separate requirement that actual execution faithfully realizes those semantics.
 
 `Capture` freezes the contract, policy executable, request, complete decision- and execution-relevant dependencies, and effect plan. Evaluation and execution are confined to that snapshot; undeclared reads or effects are blocked and abort commitment.
@@ -96,7 +98,7 @@ return record; // Durable receipt; asymmetric attestation may be pending.
 - **Durable evidence:** The boundary atomically records the committed local consequence—or, for external effects, the authorized intent—and its evidence, binding the snapshot, proof, authority version, outcome, and commit identity.
 - **Independent attestation:** A retryable worker signs the canonical receipt with an asymmetric key for [third-party verification](https://csrc.nist.gov/pubs/fips/186-5/final). Signing failure leaves the durable record intact and never re-executes the consequence.
 
-`CommitAtomically` is a conceptual primitive: all protected effects must pass through it, and a failed requirement must prevent commitment and effects. Its implementation must enforce a common authoritative ordering among commitment, revocation, and dependency changes, with fencing for external effects.
+`CommitAtomically` is a conceptual enforcement boundary: all protected effects must pass through it, and a failed requirement must prevent commitment and effects. Its implementation must enforce a common authoritative ordering among commitment, revocation, and dependency changes, with fencing for external effects.
 
 For external effects, the atomic record covers a durable intent and its evidence. Delivery must be fenced and idempotent; completion evidence is recorded separately, so an intent receipt does not assert completion.
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Protected Commitment</title>
+  <desc id="desc">A protected boundary controls one qualified path to a consequence and its durably coupled evidence.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="32" r="4"/>
+    <path d="M12 32h8m4 0h16"/>
+    <path d="M22 14v36" stroke-width="3.5"/>
+    <path d="m46 26 6 6-6 6-6-6Z"/>
+    <path d="M30 32v20h10M40 46h12v12H40Z"/>
+    <path d="M30 10h28v50H30Z" stroke-dasharray="3 4"/>
+  </g>
+</svg>

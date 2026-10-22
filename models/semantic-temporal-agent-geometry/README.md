@@ -160,6 +160,8 @@ Recursive proposal generation is an architectural capability, rather than a safe
 
 ## Commitment, failure, and recovery
 
+[Protected Commitment](../../patterns/protected-commitment/README.md) supplies the boundary procedure. STAG applies it to exact execution units and preserves their lifecycle and effect records in the Transaction Timeline.
+
 **Bind before executing.** Persist the admitted unit identity, exact geometry, input and state references, and relevant dependency bindings before consequential execution. State reads, concurrent writes, and shared budgets need mechanisms that preserve the operation's actual consistency requirements; versioned geometry alone cannot prevent conflicting updates.
 
 **Record effects at their actual boundaries.** Local consequence and required evidence must be committed atomically under the boundary's semantics. For external effects, the initial durable record covers an authorized intent. The receiver must establish current standing and enforce ordering at actual effect commitment; completion evidence is recorded separately. An intent cannot be presented as a completed effect.

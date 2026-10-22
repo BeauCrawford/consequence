@@ -126,7 +126,7 @@ The specification must define **when a revocation becomes effective**, including
 | 10 | `TEMPORAL_STANDING_HISTORY_AND_EVIDENCE_REMAIN_BOUND` | Durable records MUST bind exact semantic, authority, dependency, and commit identities. Later changes cannot silently rewrite the evidence of what governed an earlier effect. |
 | 11 | `TEMPORAL_STANDING_DEPLOYMENT_MATCHES_THE_PROOF` | The argument MUST cover actual clocks where relevant, authoritative sources, credentials, queues, privileged paths, receiving systems, and failures. Material uncovered changes require requalification. |
 
-An earlier approval may remain usable if the mechanism establishes that all its material conditions remain applicable through commitment. This may use reservations, transactional validation, or another justified protocol; no particular mechanism is mandated. Its actual revocation, expiry, failure, and concurrency semantics must satisfy the invariant.
+[Protected Commitment](../../patterns/protected-commitment/README.md) provides a reusable procedure for implementing these obligations. An earlier approval may remain usable if the mechanism establishes that all its material conditions remain applicable through commitment. This may use reservations, transactional validation, or another justified protocol; no particular mechanism is mandated. Its actual revocation, expiry, failure, and concurrency semantics must satisfy the invariant.
 
 ## Delayed effects, retries, and continuing operations
 
