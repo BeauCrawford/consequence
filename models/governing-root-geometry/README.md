@@ -72,7 +72,7 @@ Multiple contracts or roots may apply to one effect. The implementation must est
 | Preserved history | Changes MUST produce new records; later findings cannot silently rewrite the basis recorded for past commitments. |
 | Deployment correspondence | Governing qualification MUST connect to the actual executable and effect mechanisms, including privileged and external routes. |
 
-These are obligations on the governing architecture, not powers acquired by constructing a model object. Automated admission is possible under valid prior delegation; independence does not require a human approving every operation.
+These are obligations on the governing architecture, not powers acquired by constructing a model object. [Authority Independence](../../invariants/authority-independence/README.md) defines the separation from subject control. Automated admission is possible under valid prior delegation.
 
 ## Lifecycle and enforcement
 

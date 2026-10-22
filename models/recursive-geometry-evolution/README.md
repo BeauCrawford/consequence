@@ -179,7 +179,7 @@ An older geometry can remain authorized after a newer version is published. Conv
 
 Performance gains cannot compensate for violated mandatory invariants. A proposal need not improve every metric; its acceptance criteria must state permissible tradeoffs. Changes to those criteria require independent governance rather than selection by the candidate seeking admission.
 
-Broader capability grants require valid independent delegation or amendment. Authorized expansion is possible; a geometry cannot grant that expansion to itself.
+[Authority Independence](../../invariants/authority-independence/README.md) supplies the canonical separation requirement. Broader capability grants require valid independent delegation or amendment; recursive proposal generation cannot create that authority.
 
 History supplies observations, not complete coverage of possible behavior. Missing failures, biased workloads, or unmodeled effect paths limit the claims supported by an evaluation. Tests can reveal counterexamples; finite successful runs are not a proof over all future evolutions.
 

@@ -209,6 +209,7 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 
 | Concept | Relationship to CGA |
 | --- | --- |
+| [Authority Independence](../../invariants/authority-independence/README.md) | Requires promotion and protected effects to depend on authority the agent cannot unilaterally create or weaken. |
 | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Requires explicit preservation criteria for agent transformations; common ancestry alone does not establish persistent identity. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the executable behavioral structure of an agent configuration, separately from current operational state and independently established authority. |
 | [Generative Root Geometry](../generative-root-geometry/README.md) | Describes differentiation and traceable lineage of agent geometries; origin continuity alone does not grant authority. |

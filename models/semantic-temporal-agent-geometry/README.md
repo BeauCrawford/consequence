@@ -176,7 +176,7 @@ RGE may evaluate individual transactions, accumulated history, scheduled observa
 
 Qualification covers the exact source, candidate, dependency changes, state migration, and coexistence with old work. Competing promotions and rollback must respect an enforceable ordering or explicit branch policy. Preservation must hold during deployment and recovery, not only in the candidate's final configuration.
 
-The proposer cannot independently replace the rules, evidence, or enforcement that admit its own successor. Admission may be automated under valid prior delegation. Broader capabilities require independently authorized grants or amendments; an improvement score cannot supply them. Successful promotion likewise does not preauthorize every subsequent consequence.
+[Authority Independence](../../invariants/authority-independence/README.md) requires the successor's admission basis and enforcement to remain beyond the proposer's unilateral control. Admission may be automated under valid prior delegation. Broader capabilities require independently authorized grants or amendments; an improvement score cannot supply them. Successful promotion likewise does not preauthorize every subsequent consequence.
 
 ## Semantic type and proof artifact
 

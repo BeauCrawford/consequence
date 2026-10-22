@@ -143,7 +143,7 @@ A geometry's immutable version identity differs from an agent's durable logical 
 
 Under [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md), an execution may propose successor definitions. A candidate receives a new coordinate, records material parents and transformations, and undergoes independent verification and authorization before promotion. Branches and merges require explicit identity, reconciliation, and migration semantics.
 
-Continuity does not require every policy value or behavior to remain unchanged. Authorized amendments follow previously applicable governance while preserving the required obligations. A candidate cannot make an otherwise invalid transformation legitimate by relaxing its own admission criteria.
+Continuity does not require every policy value or behavior to remain unchanged. Authorized amendments follow previously applicable governance while preserving the required obligations. [Authority Independence](../../invariants/authority-independence/README.md) prevents a candidate from making an otherwise invalid transformation legitimate by relaxing its own admission criteria.
 
 Under [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md), a qualified geometry is instantiated for a transaction and its exact use is recorded. Promotion affects qualified future work; it cannot silently change the definition of an execution already in progress. Older versions may remain applicable, but historical qualification never guarantees current standing.
 

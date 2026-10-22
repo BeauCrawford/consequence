@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Authority Independence</title>
+  <desc id="desc">A subject geometry approaches an effect boundary governed from an independent source beyond the subject’s own authority path.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m13 24 8 5v10l-8 5-8-5V29Z"/>
+    <path d="M21 34h13M38 34h8"/>
+    <path d="M36 18v34" stroke-width="3.5"/>
+    <circle cx="36" cy="8" r="4"/>
+    <path d="M36 12v6"/>
+    <path d="m53 27 7 7-7 7-7-7Z"/>
+  </g>
+</svg>

@@ -114,6 +114,7 @@ The argument must identify what would falsify the claim: an uncovered effect pat
 | Concept | Contribution and limit |
 | --- | --- |
 | [Governing Root Geometry](../../models/governing-root-geometry/README.md) | Defines governing meaning and authority criteria; its declaration alone does not enforce effects. |
+| [Authority Independence](../authority-independence/README.md) | Prevents the subject from manufacturing or weakening its necessary authorization basis. |
 | [Semantic Conformance](../semantic-conformance/README.md) | Establishes preservation from the governing contract through executable semantics to actual behavior; authority remains a separate obligation. |
 | [Exact Semantic Binding](../exact-semantic-binding/README.md) | Connects each execution unit to its actual immutable definition; closure additionally binds the governing contract, inputs, dependencies, and effect. |
 | [Constraint Geometry](../../models/constraint-geometry/README.md) | Defines executable behavior; conformance and independent authority still need evidence. |
