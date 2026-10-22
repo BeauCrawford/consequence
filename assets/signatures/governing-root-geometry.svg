@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Governing Root Geometry</title>
+  <desc id="desc">An independently identified source supplies a governing boundary above three domain contracts.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="10" r="4"/><path d="M32 14V24 M12 24H52 M12 24V42 M32 24V42 M52 24V42" stroke-width="3"/><path d="M7 42h10v12H7Z M27 42h10v12H27Z M47 42h10v12H47Z"/>
+  </g>
+</svg>

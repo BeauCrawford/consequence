@@ -173,6 +173,8 @@ For a governed instantiation, root publication, delegation, semantic descent, an
 
 ## Relationship to Governing Root Geometry
 
+The canonical [Governing Root Geometry model](../../models/governing-root-geometry/README.md) defines its constitutive sources, jurisdiction, delegation, applicability, and amendment obligations.
+
 **Generative Root Geometry** is the underlying *structural grammar of becoming*. **Governing Root Geometry** is an authoritative, domain-scoped semantic constitution *instantiated using that grammar* and independently established by a legitimate publisher or trust root.
 
 | Dimension | Generative Root Geometry | Governing Root Geometry |

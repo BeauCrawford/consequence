@@ -211,7 +211,7 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 | --- | --- |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the executable behavioral structure of an agent configuration, separately from current operational state and independently established authority. |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Describes differentiation and traceable lineage of agent geometries; origin continuity alone does not grant authority. |
-| [Governing Root Geometry](../../invariants/generative-root-geometry/README.md#relationship-to-governing-root-geometry) | Supplies independently constituted rules for admissible configurations, changes, and consequences. |
+| [Governing Root Geometry](../governing-root-geometry/README.md) | Supplies independently constituted rules for admissible configurations, changes, and consequences. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Supplies the core obligation that every enabled protected effect requires actual eligibility and sufficient support. |
 | [Temporal Standing](../../invariants/temporal-standing/README.md) | Makes exact semantic binding, current applicability, and enforced commitment ordering explicit across geometry changes, revocation, retries, and external delivery. Historical validity does not confer present authority. |
 | [Topological Zero](../../invariants/topological-zero/README.md) | Establishes that no covered consequential route bypasses independently governed mediation. It does not establish sound admission by itself. |

@@ -12,7 +12,7 @@
 
 This is an **architecture-level property of the mechanism**, not a Boolean attribute that an actor or request can award itself. An occurrence's substantive eligibility, the evidence supporting its admission, and the architecture's ability to enforce those prerequisites are separate questions.
 
-The **Governing Root Geometry** supplies the authoritative meanings of admissibility, constraints, transitions, effects, and obligations. A reachable-state and effect-capability model describes the mechanisms that could actually produce a consequence. Structural Standing requires those mechanisms to make the applicable obligations necessary before the effect becomes enabled.
+The [Governing Root Geometry](../../models/governing-root-geometry/README.md) supplies the authoritative meanings of admissibility, constraints, transitions, effects, and obligations. A reachable-state and effect-capability model describes the mechanisms that could actually produce a consequence. Structural Standing requires those mechanisms to make the applicable obligations necessary before the effect becomes enabled.
 
 A correct decision on one request does not establish Structural Standing. The claim must cover materially equivalent routes, including direct writes, administrators, receivers, queued work, retries, delegated capabilities, recovery, and authorized changes to law or capability topology.
 

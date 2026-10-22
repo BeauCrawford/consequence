@@ -10,7 +10,7 @@
 
 Structural Zero is a first-class, derived reachability invariant stating that no continuation from any covered initial state can produce a specified protected consequence within the declared scope, horizon, and assumptions.
 
-In this architecture, the Governing Root Geometry defines authoritative semantic structure over foundational concepts such as state, transition, effect, constraint, and scope. Structural Zero is derived from those semantics and evaluated over a state space. Its truth requires verification.
+In this architecture, the [Governing Root Geometry](../../models/governing-root-geometry/README.md) defines authoritative semantic structure over foundational concepts such as state, transition, effect, constraint, and scope. Structural Zero is derived from those semantics and evaluated over a state space. Its truth requires verification.
 
 The claim must account for every relevant execution pathway, including direct operations, queued work, retries, delegated authority, administrative access, recovery, and external effects.
 

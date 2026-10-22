@@ -12,7 +12,7 @@
 
 The **zero** is the set of **unmediated consequential paths**. It is **not** the set of all paths to the consequence: legitimately authorized effects may remain reachable through the governed boundary.
 
-The Governing Root Geometry supplies authoritative meaning and obligations. A state-space and capability-path model identifies which actors, resources, transitions, and effect capabilities can produce the consequence. Topological Zero establishes the structural enforcement coverage of those paths; **it does not by itself establish that the governing rules or an admission decision are correct**.
+The [Governing Root Geometry](../../models/governing-root-geometry/README.md) supplies authoritative meaning and obligations. A state-space and capability-path model identifies which actors, resources, transitions, and effect capabilities can produce the consequence. Topological Zero establishes the structural enforcement coverage of those paths; **it does not by itself establish that the governing rules or an admission decision are correct**.
 
 The claim must account for direct writes, alternate APIs, delegated credentials, administrative access, queued work, retries, old workers, recovery, external systems, and transitions that create or change capabilities. A missing route in an incomplete model does not establish zero.
 

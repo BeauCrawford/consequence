@@ -191,7 +191,7 @@ Lineage evidence establishes the relevant derivation. Standing evidence qualifie
 | [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Governs the proposal, qualification, and promotion of successor geometries. |
 | [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Integrates geometry versions with persistent identity, temporary execution, and linked histories. |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies a framework for differentiation and constitutive continuity; a particular CG is an executable behavioral specification. |
-| [Governing Root Geometry](../../invariants/generative-root-geometry/README.md#relationship-to-governing-root-geometry) | Supplies independently constituted semantic obligations to which an admitted geometry must conform. |
+| [Governing Root Geometry](../governing-root-geometry/README.md) | Supplies independently constituted semantic obligations to which an admitted geometry must conform. |
 | [Structural Standing](../../invariants/structural-standing/README.md) and [Temporal Standing](../../invariants/temporal-standing/README.md) | Require actual eligibility, support, and current authority at protected effect boundaries across changing conditions. |
 | [Topological Zero](../../invariants/topological-zero/README.md) | Establishes mandatory mediation across all covered consequential routes; drawing a boundary in a geometry does not establish this coverage. |
 | [Structural Zero](../../invariants/structural-zero/README.md) | States that a specified consequence is unreachable within the declared model and scope. It is a property evaluated over geometry and mechanism semantics. |
