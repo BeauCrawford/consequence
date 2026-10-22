@@ -50,7 +50,7 @@ if (policy.IsActive)
 
 ## Corrected Version
 
-Here, *governing geometry* is the independently constituted specification obtained from trusted governance, never the executable's self-description. `Geometry.Verify` establishes that the exact policy executable conforms to that specification for the captured inputs and effects.
+Here, *governing geometry* is the independently constituted specification obtained from trusted governance, never the executable's self-description. `Geometry.Verify` establishes that the exact policy executable conforms to that specification for the captured inputs and effects. [Semantic Conformance](../invariants/semantic-conformance/README.md) defines this obligation and the separate requirement that actual execution faithfully realizes those semantics.
 
 `Capture` freezes the contract, policy executable, request, complete decision- and execution-relevant dependencies, and effect plan. Evaluation and execution are confined to that snapshot; undeclared reads or effects are blocked and abort commitment.
 

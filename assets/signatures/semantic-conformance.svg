@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Semantic Conformance</title>
+  <desc id="desc">A contract, executable geometry, and actual effect are connected by two independently checked semantic correspondences.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 14h12v12H8Z"/>
+    <path d="m32 24 9 5v10l-9 5-9-5V29Z"/>
+    <path d="m50 42 8 8-8 8-8-8Z"/>
+    <path d="M20 20h12v4M32 44v6h10"/>
+    <path d="m24 9 4 4 8-8M42 29l4 4 8-8"/>
+  </g>
+</svg>

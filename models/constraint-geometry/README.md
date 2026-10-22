@@ -90,25 +90,9 @@ This defines **model-level admissibility**. A proof that an implementation alway
 
 ### Execution conformance
 
-For a fixed geometry version, one conformance obligation can be stated as:
+[Semantic Conformance](../../invariants/semantic-conformance/README.md) supplies the canonical preservation obligation: the executable geometry must conform to the independently specified governing contract, and actual execution must conform to the geometry. Both interpretations must cover every material transition and effect without filtering out violations or bypass paths.
 
-```math
-\begin{aligned}
-&\forall\rho\in\mathrm{Exec}(M,\tau,\Omega):\\
-&\quad\alpha_{\tau}(\rho)
-\in\mathrm{AdmissibleTraces}(G_{\tau},\Omega).
-\end{aligned}
-```
-
-| Symbol | Meaning |
-| --- | --- |
-| $M$ | The actual mechanism model, including interpreters, generated executables, effect paths, concurrency, and recovery. |
-| $\Omega$ | Independently declared execution scope, initial conditions, environmental and trust assumptions, and claimed horizon. |
-| $\mathrm{Exec}(M,\tau,\Omega)$ | All covered actual executions assigned to this version, including violations and bypass behavior, rather than only successful admissions. |
-| $\alpha_{\tau}$ | A total, justified interpretation of actual execution in the geometry's semantics. It must preserve every material state change and effect. |
-| $\mathrm{AdmissibleTraces}$ | Traces satisfying the geometry's transition semantics and all applicable state and trace constraints. |
-
-The interpretation must not erase an inconvenient effect or manufacture conformance by defining implementation behavior through the desired model. Exact binding must also be established: an execution with no binding cannot disappear from the wider architecture's coverage. Multi-version systems qualify each execution unit and separately verify interactions, migrations, and shared obligations.
+A qualification may cover one captured request or a broader execution scope; its evidence must state which. Multi-version systems qualify each exact binding and separately verify interactions, migration, and shared obligations. Progress and useful-service claims need evidence beyond safety conformance.
 
 Geometry conformance does not establish the legitimacy of its governing rules. A perfectly enforced but unauthorized definition still lacks standing to govern a protected consequence.
 

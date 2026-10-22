@@ -88,7 +88,7 @@ PROTECTED CONSEQUENCE
 
 Publication, admission, and effect commitment are separate events. An older contract may remain applicable after a newer version is published. A new contract cannot silently rebind in-flight work or revive revoked grants. Amendments must account for migration, concurrent versions, outstanding delegation, and external receivers.
 
-An executable geometry must conform to the independently constituted contract. Even correct conformance does not establish that a particular effect currently has standing; actual authority, dependencies, and required support must hold at its commitment boundary.
+[Semantic Conformance](../../invariants/semantic-conformance/README.md) requires the executable geometry and its actual realization to preserve the independently constituted contract. Even correct conformance does not establish that a particular effect currently has standing; actual authority, dependencies, and required support must hold at its commitment boundary.
 
 ## Semantic type and evidence
 
