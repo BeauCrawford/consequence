@@ -153,16 +153,9 @@ $K$ is specified independently of the candidate and may refer to the governing r
 
 ## Promotion, concurrency, and recovery
 
-| Obligation | Requirement |
-| --- | --- |
-| **Bind evidence to the actual change** | Qualification MUST cover exact artifacts, dependencies, migration, and effects. Substitution after verification invalidates the affected qualification. |
-| **Check current conditions** | Promotion MUST establish its own current standing. Earlier approval cannot override effective revocation, expiry, or changed dependencies. |
-| **Order competing promotions** | Conflicting changes MUST follow an enforceable ordering or explicit branch policy. Evidence for one source state cannot silently authorize deployment over another. |
-| **Preserve in-flight bindings** | Existing work MUST retain its exact version or undergo an explicitly qualified transition. Publishing a new default cannot rewrite an admitted execution. |
-| **Account for old workers** | Retired instances, credentials, queues, and delegated tasks MUST be fenced, revoked, or explicitly requalified under applicable rules. |
-| **Record actual commitment** | Promotion and its evidence MUST be durably bound. An external deployment intent must be distinguished from completed activation; receivers enforce standing at their actual boundary. |
-| **Govern rollback and retries** | Reactivating an old artifact MUST satisfy current authority and migration requirements. A retry must distinguish retrieving an existing result from creating a new effect. |
-| **Preserve evidence on failure** | Failed migrations and partial deployments MUST follow a verified recovery path; they cannot silently count as successful promotion. |
+[Governed Promotion](../../patterns/governed-promotion/README.md) supplies the reusable procedure for binding, independently qualifying, authorizing, and activating an exact change. It covers migration, competing promotions, in-flight bindings, old workers, partial deployment, retries, and rollback.
+
+RGE applies that procedure to recursively generated candidates. Proposal generation does not receive control over its admission rules, and rejected candidates remain unpromoted. The previous geometry may continue only while independently eligible. Performance evidence and invariant-preservation evidence remain separate.
 
 An older geometry can remain authorized after a newer version is published. Conversely, successful promotion does not freeze authority or dependencies for future transactions. [Temporal Standing](../../invariants/temporal-standing/README.md) applies at each protected effect boundary, including external receivers.
 

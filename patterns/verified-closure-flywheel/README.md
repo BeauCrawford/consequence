@@ -209,6 +209,8 @@ AI may propose the change.
 
 AI does not approve the change.
 
+[Governed Promotion](../governed-promotion/README.md) supplies the admission and activation procedure: bind the exact change, establish independent authority, preserve obligations through migration, and enforce current standing at deployment. The flywheel adds the reachability-preservation criteria below; passing those checks does not itself authorize activation.
+
 The candidate must survive:
 
 ```text
@@ -274,6 +276,8 @@ NO  → REVERT
 Every retained change should leave the system at least as capable of legitimate consequence and no more capable of invalid consequence.
 
 That is the ratchet.
+
+Rejecting an unpromoted candidate does not renew the old version's standing. Reverting an already deployed change is a new governed promotion, with current authority, migration, and recovery obligations.
 
 ---
 

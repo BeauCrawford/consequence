@@ -174,7 +174,7 @@ Recursive proposal generation is an architectural capability, rather than a safe
 
 RGE may evaluate individual transactions, accumulated history, scheduled observations, or environmental changes. Every candidate is recorded under an immutable coordinate before qualification. Promotion adds a governed applicability event; it does not manufacture a new authority merely by publishing a version identifier.
 
-Qualification covers the exact source, candidate, dependency changes, state migration, and coexistence with old work. Competing promotions and rollback must respect an enforceable ordering or explicit branch policy. Preservation must hold during deployment and recovery, not only in the candidate's final configuration.
+[Governed Promotion](../../patterns/governed-promotion/README.md) supplies the activation, migration, concurrency, and recovery procedure. STAG additionally binds its qualification and actual outcomes across the Geometry and Transaction Timelines; a prepared record cannot stand in for completed activation.
 
 [Authority Independence](../../invariants/authority-independence/README.md) requires the successor's admission basis and enforcement to remain beyond the proposer's unilateral control. Admission may be automated under valid prior delegation. Broader capabilities require independently authorized grants or amendments; an improvement score cannot supply them. Successful promotion likewise does not preauthorize every subsequent consequence.
 

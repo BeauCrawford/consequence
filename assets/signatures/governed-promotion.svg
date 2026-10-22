@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Governed Promotion</title>
+  <desc id="desc">A successor geometry becomes active through an ordered transition controlled by an independently governed admission boundary.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m13 32 9 5v10l-9 5-9-5V37Z"/>
+    <path d="m51 12 9 5v10l-9 5-9-5V17Z"/>
+    <path d="M22 42h10V22h10"/>
+    <path d="M26 30h12" stroke-width="3.5"/>
+    <circle cx="32" cy="10" r="4"/>
+    <path d="M32 14v10m6-6 4 4-4 4"/>
+  </g>
+</svg>
