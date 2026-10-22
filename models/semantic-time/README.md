@@ -118,26 +118,13 @@ Resolution is partial because an artifact or required binding may be absent or u
 
 These are conformance requirements, not guarantees created by naming a data structure. The model may record proposals and unadmitted branches; recording them must not be confused with certifying their lineage or authorizing their use.
 
-### Required semantic-binding invariant
+### Required binding and continuity invariants
 
-> **Every covered consequential transition must bind an exact, immutable semantic definition with independently verifiable constitutive lineage.**
+[Exact Semantic Binding](../../invariants/exact-semantic-binding/README.md) requires each covered execution unit to use the exact immutable definition identified by its coordinate. It covers actual execution, including bypasses, and permits an explicitly bound component manifest for compound interactions.
 
-For a mechanism $M$, let $X(M,\Omega)$ contain every consequential execution unit in the declared coverage, including failed admissions that nevertheless produce an effect and any bypass routes:
+[Constitutive Continuity](../../invariants/constitutive-continuity/README.md) separately establishes the claimed lineage under independent preservation criteria. A coordinate can resolve exactly while referring to a descendant that failed those criteria.
 
-```math
-\begin{aligned}
-&\forall x\in X(M,\Omega),\;
-\exists\tau\in C,\;\sigma\in\Sigma:\\
-&\quad\mathrm{Bindings}(x)=\{\tau\}\\
-&\qquad\land R(\tau)=\sigma\\
-&\qquad\land\mathrm{ActualDefinition}(x)=\sigma\\
-&\qquad\land\mathrm{LineageEstablished}(\tau).
-\end{aligned}
-```
-
-`Bindings` identifies the coordinates bound to execution; the singleton excludes missing or ambiguous bindings. `ActualDefinition` requires correspondence to the definition actually used, including material interpreter and dependency semantics. `LineageEstablished` requires independently checkable evidence of origin and admissible transformations under the declared continuity rules, not an executable's self-description.
-
-The formula assumes the model's immutable-resolution obligations. It does not prove them, establish current effect authority, or guarantee that an implementation conforms. A compound interaction may contain several explicitly bound units, or one immutable manifest identifying its component definitions. Changing a material definition requires a new binding and applicable qualification.
+Semantic Time supplies the coordinate and resolution model. These invariants require evidence that resolution remains immutable, execution uses the resolved definition, and claimed continuity is legitimate. None establishes current effect authority or deterministic replay by itself.
 
 ## Branching, merging, and change
 

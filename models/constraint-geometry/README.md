@@ -14,7 +14,7 @@ Its dimensions define what can be represented. Its transition structure defines 
 
 **Constraint Geometry belongs under Models.** More precisely, it is an executable behavioral specification whose instances are immutable semantic artifacts. An invariant is a property required to hold across the states, transitions, or executions of that model. The geometry can contain invariant definitions without itself being an invariant.
 
-Each published geometry has an unambiguous identity and resolves through a [Semantic Time](../semantic-time/README.md) coordinate. “Executable” requires defined interpretation, compilation, and runtime semantics; a document, prompt, or collection of predicates does not establish enforcement merely by declaring constraints.
+Each published geometry has an unambiguous identity and resolves through a [Semantic Time](../semantic-time/README.md) coordinate. [Exact Semantic Binding](../../invariants/exact-semantic-binding/README.md) requires actual execution to use that resolved definition. “Executable” requires defined interpretation, compilation, and runtime semantics; a document, prompt, or collection of predicates does not establish enforcement merely by declaring constraints.
 
 The geometry defines computational structure. Actual operational state, a runtime instance, an intelligence model, and an agent's durable identity are separate entities. Their material bindings must be explicit wherever they affect execution or its consequences.
 

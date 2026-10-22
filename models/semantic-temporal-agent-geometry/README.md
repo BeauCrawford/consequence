@@ -102,25 +102,15 @@ The tuple defines responsibilities and relationships. It does not prove that his
 
 A **transaction** here is a declared logical execution unit, not an assertion that all its work is one atomic database transaction. A compound interaction identifies its constituent units or binds one immutable manifest of component definitions. Protected effects can have several distinct commitment boundaries within the interaction.
 
-Let $\rho$ be a covered execution and $\mathrm{Units}(\rho)$ its actual executed units, including units that execute through a bypass. With $C$ denoting the semantic coordinates in $\mathcal{T}$:
+STAG requires [Exact Semantic Binding](../../invariants/exact-semantic-binding/README.md) for every covered execution unit, including bypass execution. Its additional identity obligation is:
 
 ```math
-\begin{aligned}
-&\forall\rho\in\mathrm{Exec}(M,\Omega),\;
-\forall x\in\mathrm{Units}(\rho):\\
-&\quad\exists\tau\in C:\;
-\mathrm{Bindings}(x)=\{\tau\}\\
-&\qquad\land\mathrm{Entity}(\tau)=\mathrm{Agent}(x)\\
-&\qquad\land\mathrm{DefinitionUsed}(x)
-=\mathrm{Geometry}(\mathrm{Resolve}(\tau)).
-\end{aligned}
+\mathrm{Entity}(\tau_x)=\mathrm{Agent}(x).
 ```
 
-`Bindings` identifies the coordinates actually bound to execution; the singleton excludes missing or ambiguous bindings. `Entity` identifies the coordinate's agent namespace. `DefinitionUsed` includes the executable and material interpretation semantics actually used. Reusable components may have their own identities, explicitly referenced by the agent's manifest.
+Here $\tau_x$ is the unit's uniquely bound semantic coordinate. Reusable components may have separate identities explicitly referenced by the agent's manifest. The agent namespace, exact definition, and actual execution must agree.
 
-This condition is **exact temporal binding**, rather than deterministic execution. Identical geometry versions can produce different outputs because inputs, state, observations, runtime behavior, or nondeterministic choices differ. Reproducible outputs require additional captured conditions and evidence.
-
-The formula is one required invariant, not a complete STAG conformance test. An unresolved request may be rejected before execution and recorded as such; it must not silently execute under a fallback definition. Immutable resolution, verifiable lineage, current standing, and faithful records require their own enforcement.
+Exact binding does not imply deterministic outputs. Inputs, state, observations, runtime behavior, and nondeterministic choices can differ. An unresolved request may be rejected before execution and recorded as such; it must not silently execute under a fallback definition. Verifiable lineage, current standing, and faithful records require their own enforcement.
 
 ## Two linked histories
 

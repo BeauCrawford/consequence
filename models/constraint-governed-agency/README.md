@@ -131,7 +131,7 @@ These are implementation requirements, not properties obtained merely by represe
 
 ## Temporal binding and standing
 
-An admitted execution unit binds an exact immutable geometry version before actions governed by it can execute. An execution unit is the declared scope of work using that definition; a compound interaction may contain several explicitly bound units. A mutable "latest" lookup must not silently substitute another geometry during evaluation or execution. A material definition change requires a new binding and applicable admission, even when the durable agent identity is unchanged.
+[Exact Semantic Binding](../../invariants/exact-semantic-binding/README.md) requires each covered execution unit to bind an exact immutable geometry version before actions governed by it can execute. An execution unit is the declared scope of work using that definition; a compound interaction may contain several explicitly bound units. A mutable "latest" lookup must not silently substitute another geometry during evaluation or execution. A material definition change requires a new binding and applicable admission, even when the durable agent identity is unchanged.
 
 The version answers **which computational definition is executing**. [Temporal Standing](../../invariants/temporal-standing/README.md) answers **whether its exact consequence may commit under the conditions applicable now**. Version binding must not freeze authority or dependency facts: an older geometry may remain authorized, but reconstructing it cannot revive expired or revoked permission.
 

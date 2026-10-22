@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Exact Semantic Binding</title>
+  <desc id="desc">An immutable geometry and its realized effect are joined through a single fixed binding.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 8 30 15v14l-12 7L6 29V15Z"/>
+    <path d="M18 36v12h16"/>
+    <path d="M38 48h8V32"/>
+    <path d="m46 16 8 8-8 8-8-8Z"/>
+    <path d="M34 40v16M38 40v16" stroke-width="3"/>
+  </g>
+</svg>

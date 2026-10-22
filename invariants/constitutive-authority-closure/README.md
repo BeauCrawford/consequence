@@ -114,6 +114,7 @@ The argument must identify what would falsify the claim: an uncovered effect pat
 | Concept | Contribution and limit |
 | --- | --- |
 | [Governing Root Geometry](../../models/governing-root-geometry/README.md) | Defines governing meaning and authority criteria; its declaration alone does not enforce effects. |
+| [Exact Semantic Binding](../exact-semantic-binding/README.md) | Connects each execution unit to its actual immutable definition; closure additionally binds the governing contract, inputs, dependencies, and effect. |
 | [Constraint Geometry](../../models/constraint-geometry/README.md) | Defines executable behavior; conformance and independent authority still need evidence. |
 | [Structural Standing](../structural-standing/README.md) | Requires actual eligibility and support for enabled effects. |
 | [Temporal Standing](../temporal-standing/README.md) | Makes exact applicability, current standing, and authoritative ordering explicit at commitment. |

@@ -104,7 +104,7 @@ The record provides an auditable binding. Its existence or signature does not pr
 | **Authoritative ordering** | Does this change take effect before or after this commitment? | The substantive correctness of the governing rules or evidence. |
 | **Recording time** | When was an event observed or written to a log? | Its actual effect time or its position in a governing order. |
 
-A semantic-time identifier, where used, must resolve unambiguously to the intended immutable definition. It is not a substitute for current standing, and Temporal Standing does not prescribe a particular identifier format or timeline architecture.
+[Exact Semantic Binding](../exact-semantic-binding/README.md) establishes the correspondence between an immutable definition and actual execution. A semantic-time identifier, where used, must resolve unambiguously to that definition. It is not a substitute for current standing, and Temporal Standing does not prescribe a particular identifier format or timeline architecture.
 
 Conflicting changes and commitments require a common enforceable order at the relevant boundary. Unrelated operations need not share a global total order. Wall-clock expiry additionally requires a justified time source and uncertainty policy; timestamps from unsynchronized observers cannot settle an otherwise unresolved authorization race.
 
