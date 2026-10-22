@@ -4,7 +4,7 @@
 
 > **Differentiation without severance:** a structure may differentiate, compose, transform, and acquire new properties without losing its generative origin, provided the constitutive relationships required for that origin remain intact.
 
-<!-- Optional hero image: ![](./images/generative-root-geometry.png) -->
+![](./images/Generative-Root-Geometry.png)
 
 ## Definition
 
