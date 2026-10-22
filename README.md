@@ -1,6 +1,41 @@
 # Consequence
 
-Architectural specifications, invariants, patterns, and anti-patterns for governing consequential systems.
+Architectural specifications, invariants, models, patterns, anti-patterns, and arguments for governing consequential systems.
+
+## Invariants
+
+| Geometry | Title | Tagline | Description |
+| :---: | --- | --- | --- |
+| <img src="assets/signatures/generative-root-geometry.svg" alt="" width="32" height="32"> | [Generative Root Geometry](invariants/generative-root-geometry/README.md) | Differentiation without severance. | Specifies how structures differentiate and transform while preserving verifiable relationships to their generative origin. |
+| <img src="assets/signatures/structural-standing.svg" alt="" width="32" height="32"> | [Structural Standing](invariants/structural-standing/README.md) | Eligibility must be necessary for consequence. | Requires every enabled protected effect to depend on actual eligibility and sufficient decision support across all covered routes. |
+| <img src="assets/signatures/temporal-standing.svg" alt="" width="32" height="32"> | [Temporal Standing](invariants/temporal-standing/README.md) | Standing must hold when consequence commits. | Requires exact semantic binding and current standing at effect commitment, with enforced ordering of relevant changes. |
+| <img src="assets/signatures/topological-zero.svg" alt="" width="32" height="32"> | [Topological Zero](invariants/topological-zero/README.md) | Zero unmediated paths to protected consequence. | Requires every covered route to a protected effect to cross independently governed enforcement; authorized effects may remain reachable. |
+| <img src="assets/signatures/structural-zero.svg" alt="" width="32" height="32"> | [Structural Zero](invariants/structural-zero/README.md) | The specified consequence is unreachable. | Establishes that no covered continuation can produce a specified effect within the declared scope, horizon, and assumptions. |
+
+## Models
+
+| Geometry | Title | Tagline | Description |
+| :---: | --- | --- | --- |
+| <img src="assets/signatures/constraint-governed-agency.svg" alt="" width="32" height="32"> | [Constraint-Governed Agency](models/constraint-governed-agency/README.md) | The field provides possibility. Geometry shapes behavior. Standing governs consequence. | Models agents as versioned configurations of generative capability, with independently enforced authority over their effects and transformations. |
+| <img src="assets/signatures/semantic-time.svg" alt="" width="32" height="32"> | [Semantic Time](models/semantic-time/README.md) | Locate computation within a lineage of meaning. | Resolves computation to immutable semantic versions and causal relationships, separating historical meaning from current execution authority. |
+
+## Patterns
+
+| Geometry | Title | Tagline | Description |
+| :---: | --- | --- | --- |
+| <img src="assets/signatures/verified-closure-flywheel.svg" alt="" width="32" height="32"> | [Verified Closure Flywheel](patterns/verified-closure-flywheel/README.md) | AI searches. Verification admits. Closure compounds. | Uses traces, model checking, and verified structural changes to reduce invalid reachability while preserving legitimate behavior. |
+
+## Anti-Patterns
+
+| Geometry | Title | Tagline | Description |
+| :---: | --- | --- | --- |
+| <img src="assets/signatures/boolean-standing-fallacy.svg" alt="" width="32" height="32"> | [Boolean Standing Fallacy](anti-patterns/Boolean-Standing-Fallacy.md) | A Boolean can assert authority. It cannot constitute it. | Exposes the error of treating a computed approval or cryptographic receipt as sufficient proof of legitimate governing authority. |
+
+## Arguments
+
+| Geometry | Title | Tagline | Description |
+| :---: | --- | --- | --- |
+| <img src="assets/signatures/constitutive-floor.svg" alt="" width="32" height="32"> | [Constitutive Floor Proof Standard](arguments/constitutive-floor/README.md) | Claim only what the evidence establishes. | Defines proof obligations for necessary consequence contracts, from non-vacuous formation and scope-wide closure through implementation refinement and deployment assurance. |
 
 ## License
 

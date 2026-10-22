@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Temporal Standing</title>
+  <desc id="desc">An event sequence reaches a consequence diamond through a commitment boundary; an arrow below marks temporal progression.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11.5 24H47 M24 20V28"/>
+    <circle cx="8" cy="24" r="3.5"/>
+    <path d="M40 9V39" stroke-width="3.5"/>
+    <path d="m54 17 7 7-7 7-7-7Z"/>
+    <path d="M8 51H56 M50 46 56 51 50 56"/>
+  </g>
+</svg>
