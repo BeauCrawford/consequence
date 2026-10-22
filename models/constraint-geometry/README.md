@@ -186,11 +186,12 @@ Lineage evidence establishes the relevant derivation. Standing evidence qualifie
 
 | Concept | Relationship to Constraint Geometry |
 | --- | --- |
+| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Specifies preservation of the required kernel and relationships when a successor claims legitimate continuity. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Organizes generative capability and enforcement around agent configurations; CG specifies their executable behavioral semantics. |
 | [Semantic Time](../semantic-time/README.md) | Identifies exact geometry versions and causal lineage without independently granting execution authority. |
 | [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Governs the proposal, qualification, and promotion of successor geometries. |
 | [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Integrates geometry versions with persistent identity, temporary execution, and linked histories. |
-| [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies a framework for differentiation and constitutive continuity; a particular CG is an executable behavioral specification. |
+| [Generative Root Geometry](../generative-root-geometry/README.md) | Supplies a framework for differentiation and constitutive continuity; a particular CG is an executable behavioral specification. |
 | [Governing Root Geometry](../governing-root-geometry/README.md) | Supplies independently constituted semantic obligations to which an admitted geometry must conform. |
 | [Structural Standing](../../invariants/structural-standing/README.md) and [Temporal Standing](../../invariants/temporal-standing/README.md) | Require actual eligibility, support, and current authority at protected effect boundaries across changing conditions. |
 | [Topological Zero](../../invariants/topological-zero/README.md) | Establishes mandatory mediation across all covered consequential routes; drawing a boundary in a geometry does not establish this coverage. |

@@ -209,11 +209,12 @@ A separate **STAG Conformance Argument** establishes the claimed properties for 
 
 | Concept | Relationship to STAG |
 | --- | --- |
+| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Supplies independently specified preservation criteria for geometry evolution and claimed identity continuity. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the immutable executable behavioral artifact instantiated by a STAG execution, distinct from runtime state, agent identity, and current authority. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Supplies the broader model of agents as governed configurations. STAG specializes it with persistent semantic identity, temporary execution, linked histories, and recursive evolution. |
 | [Semantic Time](../semantic-time/README.md) | Identifies exact definitions and their causal relationships; STAG binds those coordinates to agent executions and recorded outcomes. |
 | [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Provides the governed proposal and promotion model for successor geometries. |
-| [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies the distinction between differentiated expression and verifiable constitutive continuity. |
+| [Generative Root Geometry](../generative-root-geometry/README.md) | Supplies the distinction between differentiated expression and verifiable constitutive continuity. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Requires actual eligibility and support for every enabled protected effect throughout the mechanism. |
 | [Temporal Standing](../../invariants/temporal-standing/README.md) | Makes current applicability, exact binding, and enforced commitment ordering explicit at promotion and every effect boundary. |
 | [Constitutive Floor](../../arguments/constitutive-floor/README.md) | Requires evidence that implementation and deployment actually preserve the claimed necessary contracts. |

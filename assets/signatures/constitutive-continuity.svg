@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutive Continuity</title>
+  <desc id="desc">Different structural expressions remain connected through a preserved constitutive relation.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="32" r="4"/><path d="M12 32H25 M37 32H48 M8 22V12H55V22 M8 42V52H55V42"/><path d="m25 26 6-4 6 4v12l-6 4-6-4Z M48 26h12v12H48Z"/>
+  </g>
+</svg>

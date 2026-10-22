@@ -204,11 +204,12 @@ A separate **Evolution Conformance Argument** binds those obligations to exact m
 
 | Concept | Relationship to RGE |
 | --- | --- |
+| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Defines the shared preservation obligation for admitted successors, migrations, and merged lineages. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Defines the executable state, transition, constraint, and effect semantics that RGE proposes to transform under independent governance. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Defines agents as governed configurations. RGE specifies how those configurations can participate in proposing and admitting their successors. |
 | [Semantic Time](../semantic-time/README.md) | Gives candidates and executions exact immutable identities and causal lineage; version publication alone does not authorize activation. |
 | [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Integrates RGE with persistent semantic identity, temporary execution, and linked geometry and transaction histories. |
-| [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies the distinction between differentiated expression and preservation of constitutive origin. |
+| [Generative Root Geometry](../generative-root-geometry/README.md) | Supplies the distinction between differentiated expression and preservation of constitutive origin. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Requires actual eligibility and support for enabled protected effects throughout evolution. |
 | [Temporal Standing](../../invariants/temporal-standing/README.md) | Applies current standing and enforced ordering to promotion, migration, and subsequent effects. |
 | [Verified Closure Flywheel](../../patterns/verified-closure-flywheel/README.md) | A compatible engineering pattern focused on reducing invalid reachability while preserving legitimate behavior. RGE more broadly models changes to an agent's own computational definition. |

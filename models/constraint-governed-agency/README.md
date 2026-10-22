@@ -209,8 +209,9 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 
 | Concept | Relationship to CGA |
 | --- | --- |
+| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Requires explicit preservation criteria for agent transformations; common ancestry alone does not establish persistent identity. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the executable behavioral structure of an agent configuration, separately from current operational state and independently established authority. |
-| [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Describes differentiation and traceable lineage of agent geometries; origin continuity alone does not grant authority. |
+| [Generative Root Geometry](../generative-root-geometry/README.md) | Describes differentiation and traceable lineage of agent geometries; origin continuity alone does not grant authority. |
 | [Governing Root Geometry](../governing-root-geometry/README.md) | Supplies independently constituted rules for admissible configurations, changes, and consequences. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Supplies the core obligation that every enabled protected effect requires actual eligibility and sufficient support. |
 | [Temporal Standing](../../invariants/temporal-standing/README.md) | Makes exact semantic binding, current applicability, and enforced commitment ordering explicit across geometry changes, revocation, retries, and external delivery. Historical validity does not confer present authority. |
