@@ -148,7 +148,7 @@ Structural Zero establishes unreachability without independently establishing it
 | Structural Zero | A derived property of what cannot become reachable. |
 | Topological Zero | A derived property establishing that no effect-producing route escapes mandatory enforcement. |
 | Topological Consequence Mediation | An enforcement mechanism whose path coverage is captured by Topological Zero; sound, current admission can additionally establish Structural Zero for unauthorized effects. |
-| Constitutive Authority Closure | The broader guarantee that authority, semantics, and protected execution remain verifiably connected. |
+| [Constitutive Authority Closure](../constitutive-authority-closure/README.md) | The broader guarantee that authority, semantics, and protected execution remain verifiably connected. |
 
 Constitutive Authority Closure can hold while legitimate protected consequences remain reachable. Structural Zero is always relative to a specified consequence.
 

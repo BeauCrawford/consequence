@@ -111,6 +111,7 @@ Qualification of one version does not automatically qualify amendments, translat
 
 | Concept | Relationship |
 | --- | --- |
+| [Constitutive Authority Closure](../../invariants/constitutive-authority-closure/README.md) | Connects qualified governing meaning to standing, conforming execution, and actual protected effects. |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Describes differentiation and origin continuity. Governing status requires the additional constitutive authority modeled here. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Supplies executable behavioral definitions that must conform to applicable governing meaning. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Requires actual eligibility and support for enabled protected effects. |

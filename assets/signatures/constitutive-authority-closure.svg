@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutive Authority Closure</title>
+  <desc id="desc">A governing source connects through semantic and enforcement boundaries to an effect, enclosed by a common assurance scope.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="9" cy="32" r="4"/><path d="M13 32H23 M31 32H39 M47 32H51"/><path d="M23 24h8v16h-8Z M39 14V50" stroke-width="3"/><path d="m56 27 5 5-5 5-5-5Z M9 22V10H56V22 M9 42V54H56V42"/>
+  </g>
+</svg>

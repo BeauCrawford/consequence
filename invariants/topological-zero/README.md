@@ -183,7 +183,7 @@ Crucially, **Topological Zero does not imply Structural Zero for all protected e
 | `GOVERNANCE_ENFORCED_STRUCTURAL_ZERO` | Verified governing enforcement makes the prohibited effect unreachable. |
 | `CONSTITUTIVE_AUTHORITY_CLOSURE` | Governing authority, independently established standing, execution semantics, and exclusive consequence custody remain verifiably bound end to end. |
 
-Topological Zero is a **mechanism-coverage property**. Structural Zero is an **outcome-reachability property**. Constitutive Authority Closure is the stronger end-to-end assurance that connects authentic rules, valid standing, correctly enforced effects, and complete mediation. Neither zero may be claimed beyond the verified scope or horizon.
+Topological Zero is a **mechanism-coverage property**. Structural Zero is an **outcome-reachability property**. [Constitutive Authority Closure](../constitutive-authority-closure/README.md) is the stronger end-to-end assurance that connects authentic rules, valid standing, correctly enforced effects, and complete mediation. Neither zero may be claimed beyond the verified scope or horizon.
 
 ## Governing principle
 

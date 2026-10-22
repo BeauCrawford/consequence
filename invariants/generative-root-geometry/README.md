@@ -194,7 +194,7 @@ The transition from a general generative root to an authoritative constitution i
 | **Structural Standing** | Ensures every covered enabled protected effect actually satisfies governing eligibility and support obligations. | Depends on a domain-specific contract and real enforcement, not just root lineage. |
 | **Topological Zero** | Establishes that no in-scope path to a protected effect escapes independently governed mediation. | A capability-path coverage invariant, not a law of generative ancestry. |
 | **Structural Zero** | Establishes that a specified effect is unreachable across all covered continuations within a declared horizon. | An outcome-reachability invariant; its cause may be governance, outage, or other constraints. |
-| **Constitutive Authority Closure** | Binds authentic governing law, legitimate standing, semantic conformance, and actual effect custody end to end. | A stronger consequence assurance; GRG alone cannot supply its authority or enforcement proof. |
+| [Constitutive Authority Closure](../constitutive-authority-closure/README.md) | Binds authentic governing law, legitimate standing, semantic conformance, and actual effect custody end to end. | A stronger consequence assurance; GRG alone cannot supply its authority or enforcement proof. |
 
 ### Composition — from generative lineage to governed consequence
 

@@ -6,6 +6,7 @@ Architectural specifications, invariants, models, patterns, anti-patterns, and a
 
 | Geometry | Title | Tagline | Description |
 | :---: | --- | --- | --- |
+| <img src="assets/signatures/constitutive-authority-closure.svg" alt="" width="32" height="32"> | [Constitutive Authority Closure](invariants/constitutive-authority-closure/README.md) | Authority and actual consequence remain connected. | Requires authentic governing meaning, current standing, conforming execution, complete effect control, and faithful evidence for each protected commitment. |
 | <img src="assets/signatures/generative-root-geometry.svg" alt="" width="32" height="32"> | [Generative Root Geometry](invariants/generative-root-geometry/README.md) | Differentiation without severance. | Specifies how structures differentiate and transform while preserving verifiable relationships to their generative origin. |
 | <img src="assets/signatures/structural-standing.svg" alt="" width="32" height="32"> | [Structural Standing](invariants/structural-standing/README.md) | Eligibility must be necessary for consequence. | Requires every enabled protected effect to depend on actual eligibility and sufficient decision support across all covered routes. |
 | <img src="assets/signatures/temporal-standing.svg" alt="" width="32" height="32"> | [Temporal Standing](invariants/temporal-standing/README.md) | Standing must hold when consequence commits. | Requires exact semantic binding and current standing at effect commitment, with enforced ordering of relevant changes. |

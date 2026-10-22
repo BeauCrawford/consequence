@@ -181,7 +181,7 @@ This is **Structural Zero for invalid effects**, not Structural Zero for every p
 
 Neither property should be silently inferred from the other: **complete mediation can route every request through a verifier that accepts false premises**, while Structural Standing might arise from enforceable constraints distributed throughout the mechanism rather than a single custodial checkpoint. Both guarantees still require independently verified scope and model-to-deployment correspondence.
 
-**Constitutive Authority Closure** demands the larger end-to-end continuity: authenticated governing meaning, independently established standing, preserved execution semantics, and effectively governed protected effects. No decision or receipt can supply a missing link in that chain.
+[Constitutive Authority Closure](../constitutive-authority-closure/README.md) demands the larger end-to-end continuity: authenticated governing meaning, independently established standing, preserved execution semantics, and effectively governed protected effects. No decision or receipt can supply a missing link in that chain.
 
 ### Examples
 
