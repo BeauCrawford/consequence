@@ -204,6 +204,7 @@ A separate **Evolution Conformance Argument** binds those obligations to exact m
 
 | Concept | Relationship to RGE |
 | --- | --- |
+| [Constraint Geometry](../constraint-geometry/README.md) | Defines the executable state, transition, constraint, and effect semantics that RGE proposes to transform under independent governance. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Defines agents as governed configurations. RGE specifies how those configurations can participate in proposing and admitting their successors. |
 | [Semantic Time](../semantic-time/README.md) | Gives candidates and executions exact immutable identities and causal lineage; version publication alone does not authorize activation. |
 | [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Integrates RGE with persistent semantic identity, temporary execution, and linked geometry and transaction histories. |

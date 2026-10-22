@@ -75,20 +75,22 @@ A CGA specification can be represented as:
 | $M$ | The complete mechanism model, including generation, semantic binding, execution, reconfiguration, revocation, delegation, queues, local and external commitment boundaries, and authoritative ordering of material changes. |
 | $\Omega$ | Declared initial states, protected-effect scope, governing applicability and effective-time rules, environment, timing, and failure assumptions, trust dependencies, and any claimed horizon. |
 
-An individual geometry can be described by:
+A configuration view of an agent geometry can be described by:
 
 ```math
-G=\langle O,X,\mu,U,P,B\rangle
+G_{\mathrm{config}}=\langle O,X,\mu,U,P,B\rangle
 ```
 
 | Symbol | Meaning |
 | --- | --- |
 | $O$ | Objectives and their priorities. |
 | $X$ | Context construction, information access, and interpretation configuration. |
-| $\mu$ | Memory, local state, and persistence or migration rules. |
+| $\mu$ | Memory schema, initialization, persistence, and migration rules. Actual memory and local-state values belong to an execution instance. |
 | $U$ | Declared tool interfaces and requested capabilities. Actual grants require separate authority. |
 | $P$ | Specified transition constraints, budgets, and behavioral policies. |
 | $B$ | Bindings to governing contracts and execution boundaries; references do not authenticate themselves. |
+
+[Constraint Geometry](../constraint-geometry/README.md) specifies the executable state, transition, constraint, and effect semantics of this configuration. Its immutable definition remains distinct from current inputs, context values, and operational state.
 
 These tuples organize the specification; they do not prove enforcement or completeness. The mechanism state must bind actual model and geometry versions, executable artifacts, credentials, dependencies, and in-flight work. Any additional component that can materially affect a covered consequence belongs in the model.
 
@@ -207,6 +209,7 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 
 | Concept | Relationship to CGA |
 | --- | --- |
+| [Constraint Geometry](../constraint-geometry/README.md) | Specifies the executable behavioral structure of an agent configuration, separately from current operational state and independently established authority. |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Describes differentiation and traceable lineage of agent geometries; origin continuity alone does not grant authority. |
 | [Governing Root Geometry](../../invariants/generative-root-geometry/README.md#relationship-to-governing-root-geometry) | Supplies independently constituted rules for admissible configurations, changes, and consequences. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Supplies the core obligation that every enabled protected effect requires actual eligibility and sufficient support. |

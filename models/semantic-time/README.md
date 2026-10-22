@@ -203,6 +203,7 @@ A separate **Semantic Time Conformance Argument** establishes immutable resoluti
 
 | Concept | Relationship to Semantic Time |
 | --- | --- |
+| [Constraint Geometry](../constraint-geometry/README.md) | Supplies an immutable executable behavioral definition that a semantic coordinate can resolve; current state and authority are bound separately. |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies a framework for differentiation and continuity; Semantic Time identifies versions and records the causal relationships whose validity must be established. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Can use semantic coordinates to instantiate exact agent geometries while processes start, stop, and change. Persistent identity additionally requires explicit continuity criteria. |
 | [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Uses immutable coordinates and verifiable lineage to qualify successor geometries; independent governance determines whether they may become applicable to execution. |

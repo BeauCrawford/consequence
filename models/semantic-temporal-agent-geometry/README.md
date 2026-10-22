@@ -209,6 +209,7 @@ A separate **STAG Conformance Argument** establishes the claimed properties for 
 
 | Concept | Relationship to STAG |
 | --- | --- |
+| [Constraint Geometry](../constraint-geometry/README.md) | Specifies the immutable executable behavioral artifact instantiated by a STAG execution, distinct from runtime state, agent identity, and current authority. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Supplies the broader model of agents as governed configurations. STAG specializes it with persistent semantic identity, temporary execution, linked histories, and recursive evolution. |
 | [Semantic Time](../semantic-time/README.md) | Identifies exact definitions and their causal relationships; STAG binds those coordinates to agent executions and recorded outcomes. |
 | [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Provides the governed proposal and promotion model for successor geometries. |
