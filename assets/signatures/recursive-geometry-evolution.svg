@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Recursive Geometry Evolution</title>
+  <desc id="desc">A geometry leads through an independent admission boundary to a successor geometry, with a return arrow representing further evolution proposals.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m5 20 8-5 8 5v10l-8 5-8-5Z"/>
+    <path d="m43 20 8-5 8 5v10l-8 5-8-5Z"/>
+    <path d="M21 25H43"/>
+    <path d="M32 9V41" stroke-width="3.5"/>
+    <path d="M51 39V48Q51 54 45 54H19Q13 54 13 48V41 M8 46 13 41 18 46"/>
+  </g>
+</svg>

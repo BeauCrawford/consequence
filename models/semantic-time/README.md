@@ -205,6 +205,8 @@ A separate **Semantic Time Conformance Argument** establishes immutable resoluti
 | --- | --- |
 | [Generative Root Geometry](../../invariants/generative-root-geometry/README.md) | Supplies a framework for differentiation and continuity; Semantic Time identifies versions and records the causal relationships whose validity must be established. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Can use semantic coordinates to instantiate exact agent geometries while processes start, stop, and change. Persistent identity additionally requires explicit continuity criteria. |
+| [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Uses immutable coordinates and verifiable lineage to qualify successor geometries; independent governance determines whether they may become applicable to execution. |
+| [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Binds persistent agent identities and temporary executions to exact semantic coordinates through linked geometry and transaction histories. |
 | [Temporal Standing](../../invariants/temporal-standing/README.md) | Qualifies exact semantic bindings against current applicability, authority, dependencies, and enforced commitment ordering. |
 | [Structural Standing](../../invariants/structural-standing/README.md) | Requires actual eligibility and support for enabled effects; precise version identity supplies context for that argument, not its enforcement. |
 | [Boolean Standing Fallacy](../../anti-patterns/Boolean-Standing-Fallacy.md) | A successful resolution flag, digest match, or lineage assertion cannot constitute authority to produce a consequence. |

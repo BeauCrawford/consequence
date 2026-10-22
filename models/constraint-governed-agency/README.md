@@ -215,6 +215,8 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 | [Structural Zero](../../invariants/structural-zero/README.md) | Can establish unreachability of specified invalid effects when standing enforcement, preservation, and model correspondence hold across the claimed scope and horizon. |
 | [Constitutive Floor](../../arguments/constitutive-floor/README.md) | Supplies the question of whether valid consequence actually depends on the claimed contract, rather than merely accompanying it. |
 | [Verified Closure Flywheel](../../patterns/verified-closure-flywheel/README.md) | Provides a candidate improvement process: generation proposes structural changes; independent verification governs admission. |
+| [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md) | Models how an agent can propose successor geometries while independent admission preserves applicable obligations through promotion and migration. |
+| [Semantic-Temporal Agent Geometry](../semantic-temporal-agent-geometry/README.md) | Specializes CGA with persistent semantic identity, exact version resolution, temporary execution, linked histories, and governed recursive evolution. |
 | [Boolean Standing Fallacy](../../anti-patterns/Boolean-Standing-Fallacy.md) | Identifies the failure of treating a geometry's own decision, policy flag, or receipt as sufficient proof of governing authority. |
 
 These relationships describe responsibilities and proof dependencies. Naming the model does not establish the connected invariants or end-to-end Constitutive Authority Closure.

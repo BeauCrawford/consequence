@@ -18,6 +18,8 @@ Architectural specifications, invariants, models, patterns, anti-patterns, and a
 | :---: | --- | --- | --- |
 | <img src="assets/signatures/constraint-governed-agency.svg" alt="" width="32" height="32"> | [Constraint-Governed Agency](models/constraint-governed-agency/README.md) | The field provides possibility. Geometry shapes behavior. Standing governs consequence. | Models agents as versioned configurations of generative capability, with independently enforced authority over their effects and transformations. |
 | <img src="assets/signatures/semantic-time.svg" alt="" width="32" height="32"> | [Semantic Time](models/semantic-time/README.md) | Locate computation within a lineage of meaning. | Resolves computation to immutable semantic versions and causal relationships, separating historical meaning from current execution authority. |
+| <img src="assets/signatures/recursive-geometry-evolution.svg" alt="" width="32" height="32"> | [Recursive Geometry Evolution](models/recursive-geometry-evolution/README.md) | Geometry may propose its own evolution. It cannot authorize its own promotion. | Models recursive self-modification through immutable candidates, verified continuity, and independently authorized promotion. |
+| <img src="assets/signatures/semantic-temporal-agent-geometry.svg" alt="" width="32" height="32"> | [Semantic-Temporal Agent Geometry](models/semantic-temporal-agent-geometry/README.md) | Persistent identity. Exact geometry. Governed evolution. | Integrates semantic identity, temporary execution, linked geometry and transaction histories, and independently governed recursive evolution. |
 
 ## Patterns
 
