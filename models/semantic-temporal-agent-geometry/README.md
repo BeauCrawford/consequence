@@ -10,7 +10,7 @@
 
 A geometry defines state spaces, objectives, constraints, transitions, requested capabilities, effect semantics, and bindings to governing authority. Its declarations do not create that authority. Promotion and protected execution require independently established standing.
 
-The runtime is a temporary realization of the agent's definition. It may end while the agent's identity, state, commitments, and records persist. A service may reuse a process to host several executions; process reuse neither establishes nor breaks logical continuity.
+[Constitutive Agent Identity](../constitutive-agent-identity/README.md) supplies the identity model used here, including its distinction, constitutive kernel, qualified lineage, and state relationships. The runtime is a temporary realization of the agent's definition. It may end while the agent's identity, state, commitments, and records persist. A service may reuse a process to host several executions; process reuse neither establishes nor breaks logical continuity.
 
 Two linked histories preserve the architecture's meaning and activity: the **Geometry Timeline** records definitions and their governed evolution; the **Transaction Timeline** records executions, their exact bindings, and their outcomes. Through [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md), an agent may use these records and other observations to propose successors. Independent verification and authorization govern promotion.
 
@@ -36,10 +36,10 @@ These are components of the model, rather than additional foundational primitive
 
 | Component | Role |
 | --- | --- |
-| **Semantic identity** | A durable logical reference with explicitly governed criteria for continuity, branching, transfer, and retirement. |
+| **Semantic identity** | A [Constitutive Agent Identity](../constitutive-agent-identity/README.md) with independently governed distinction, continuity, branching, transfer, and retirement criteria. |
 | **Constraint geometry** | An immutable executable definition and its interpretation, material dependencies, constraints, and effect boundaries. |
 | **Semantic Time** | The model of immutable version coordinates and causal lineage used to resolve exact definitions. |
-| **Geometry Timeline** | Records definitions, transformations, qualification evidence, promotions, and retirement or applicability changes. |
+| **Geometry Timeline** | Uses [Semantic Lineage](../semantic-lineage/README.md) to record definitions, material parents, transformations, qualification, admission, activation, and later applicability events. |
 | **Transaction Timeline** | Records execution identities, attempts, inputs, state transitions, outputs, effects, and evidence under exact geometry bindings. |
 | **Ephemeral execution** | A bounded runtime realization of a resolved definition against identified input, state, and dependencies. |
 | **Recursive Geometry Evolution** | Generates successor proposals from history and observations under independent admission requirements. |
@@ -137,7 +137,7 @@ Retain payloads or trustworthy references sufficient for the claimed interpretat
 | **Runtime instance** | Realizes a particular execution and may be started, replaced, resumed, or released without constituting the agent's identity. |
 | **Authority** | Depends on current grants, applicability, dependencies, and the exact consequence, regardless of which artifacts persist. |
 
-A process identifier, stable agent name, or common ancestor is insufficient evidence of legitimate continuity. Branches need explicit identity rules: two descendants may share ancestry without both being interchangeable realizations of the same agent. Merges and identity transfers require defined reconciliation and governing authority.
+[Constitutive Distinction](../../invariants/constitutive-distinction/README.md) establishes unambiguous entity reference. [Identity Continuity](../../invariants/identity-continuity/README.md) separately requires changed expressions to preserve the identity criteria in the applicable [Constitutive Kernel](../constitutive-kernel/README.md). Branches, merges, and transfers need explicit rules; ancestry alone cannot make their expressions interchangeable.
 
 Continuity does not imply constant behavior or uninterrupted operation. Conversely, an uninterrupted process can lose standing or violate identity obligations when its definition, relationships, or governing conditions change.
 
@@ -201,7 +201,9 @@ A separate **STAG Conformance Argument** establishes the claimed properties for 
 
 | Concept | Relationship to STAG |
 | --- | --- |
-| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Supplies independently specified preservation criteria for geometry evolution and claimed identity continuity. |
+| [Constitutive Agent Identity](../constitutive-agent-identity/README.md) | Defines the persistent entity; STAG integrates its identity obligations with execution, histories, and current standing. |
+| [Identity Continuity](../../invariants/identity-continuity/README.md) | Specializes constitutive preservation to operational claims that a changed expression remains the same agent. |
+| [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Supplies the general preservation requirement for geometry evolution; preserving origin need not preserve the same identity. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the immutable executable behavioral artifact instantiated by a STAG execution, distinct from runtime state, agent identity, and current authority. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Supplies the broader model of agents as governed configurations. STAG specializes it with persistent semantic identity, temporary execution, linked histories, and recursive evolution. |
 | [Semantic Time](../semantic-time/README.md) | Identifies exact definitions and their causal relationships; STAG binds those coordinates to agent executions and recorded outcomes. |

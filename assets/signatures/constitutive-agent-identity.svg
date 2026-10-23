@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutive Agent Identity</title>
+  <desc id="desc">One governed semantic identity is related to several distinguishable computational expressions across its lineage.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="9" r="5"/>
+    <path d="M32 14v8M10 33V22h44v11"/>
+    <circle cx="10" cy="43" r="8"/>
+    <path d="m32 34 8 5v9l-8 5-8-5v-9Z M47 35h14v16H47Z"/>
+    <path d="M18 43h6M40 43h7M32 22v12"/>
+  </g>
+</svg>

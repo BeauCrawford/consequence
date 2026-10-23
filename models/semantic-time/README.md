@@ -190,6 +190,9 @@ A separate **Semantic Time Conformance Argument** establishes immutable resoluti
 
 | Concept | Relationship to Semantic Time |
 | --- | --- |
+| [Constitutive Distinction](../../invariants/constitutive-distinction/README.md) | Requires the entity reference in a coordinate to remain unambiguous; artifact or process identity cannot silently replace it. |
+| [Semantic Lineage](../semantic-lineage/README.md) | Adds explicit derivation, complete material parents, transformation evidence, and admission history to the coordinate and causal-resolution model. |
+| [Constitutive Agent Identity](../constitutive-agent-identity/README.md) | Uses semantic coordinates while separately binding identity-record revisions and transaction-specific state; one geometry version may serve many state versions. |
 | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Establishes preservation through the derivations recorded by semantic coordinates; causal references alone do not prove it. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Supplies an immutable executable behavioral definition that a semantic coordinate can resolve; current state and authority are bound separately. |
 | [Generative Root Geometry](../generative-root-geometry/README.md) | Supplies a framework for differentiation and continuity; Semantic Time identifies versions and records the causal relationships whose validity must be established. |

@@ -114,6 +114,7 @@ Compensation is a new consequential operation. It does not erase the original ev
 | Exact candidate and deployed realization | [Exact Semantic Binding](../../invariants/exact-semantic-binding/README.md). |
 | Contract, executable, and behavior correspondence | [Semantic Conformance](../../invariants/semantic-conformance/README.md). |
 | Preserved constitutive relationships | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md), for the specific continuity claims made. |
+| Same-agent continuation, where claimed | [Identity Continuity](../../invariants/identity-continuity/README.md), including required state, commitments, and fork or merge rules. Authorized promotion may instead introduce a new identity. |
 | Independent promotion basis | [Authority Independence](../../invariants/authority-independence/README.md). |
 | Current standing and enforceable change ordering | [Temporal Standing](../../invariants/temporal-standing/README.md). |
 

@@ -139,7 +139,7 @@ Identity independence is an architectural distinction. Recursive evolution is an
 
 ## Identity, continuity, and evolution
 
-A geometry's immutable version identity differs from an agent's durable logical identity. A changed geometry can remain associated with the same agent only where independently defined continuity criteria hold. The geometry's current state, runtime process, and referenced intelligence model do not settle that question.
+[Constitutive Agent Identity](../constitutive-agent-identity/README.md) defines an agent's durable identity separately from its immutable geometry versions. A changed geometry can remain associated with that identity only where [Identity Continuity](../../invariants/identity-continuity/README.md) holds under the applicable constitutive kernel. The geometry's current state, runtime process, and referenced intelligence model do not settle that question.
 
 Under [Recursive Geometry Evolution](../recursive-geometry-evolution/README.md), an execution may propose successor definitions. A candidate receives a new coordinate, records material parents and transformations, and undergoes independent verification and authorization before promotion. Branches and merges require explicit identity, reconciliation, and migration semantics.
 

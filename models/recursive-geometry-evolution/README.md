@@ -136,7 +136,7 @@ These predicates denote substantive obligations, not approval flags. The formula
 
 ### Preservation through change
 
-Let $K(s)$ express the required invariant kernel over the complete mechanism state. An inductive preservation argument requires:
+Let $K(s)$ express satisfaction of the required obligations over the complete mechanism state. A [Constitutive Kernel](../constitutive-kernel/README.md) specifies the preservation criteria; this predicate expresses the state obligations used in the following inductive argument:
 
 ```math
 \begin{aligned}
@@ -197,6 +197,8 @@ A separate **Evolution Conformance Argument** binds those obligations to exact m
 
 | Concept | Relationship to RGE |
 | --- | --- |
+| [Constitutive Agent Identity](../constitutive-agent-identity/README.md) | Defines the identity an evolving agent may retain; [Identity Continuity](../../invariants/identity-continuity/README.md) establishes the specific same-agent claim. |
+| [Semantic Lineage](../semantic-lineage/README.md) | Records exact source and candidate relationships, all material parents, qualification, admission, and actual activation. |
 | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Defines the shared preservation obligation for admitted successors, migrations, and merged lineages. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Defines the executable state, transition, constraint, and effect semantics that RGE proposes to transform under independent governance. |
 | [Constraint-Governed Agency](../constraint-governed-agency/README.md) | Defines agents as governed configurations. RGE specifies how those configurations can participate in proposing and admitting their successors. |

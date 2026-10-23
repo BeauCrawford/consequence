@@ -214,6 +214,8 @@ This diagram is **a dependency/assurance composition, not an automatic logical i
 
 ## Essential distinctions
 
+[Constitutive Agent Identity](../constitutive-agent-identity/README.md) specializes distinction, relation, and continuity for governed computational agents. Its same-identity claims require [Identity Continuity](../../invariants/identity-continuity/README.md); general root continuity alone does not establish them.
+
 | Claim | What it establishes—and what it does not |
 | --- | --- |
 | `DISTINCTION` | Descendants can be identified separately; difference does not itself establish severance. |

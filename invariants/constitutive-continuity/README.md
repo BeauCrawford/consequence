@@ -88,7 +88,7 @@ An authorized amendment can change local policy while preserving the domain's hi
 | Identical observable outputs | Was either output derived through the claimed lineage? |
 | A signed parent reference | Did the declared transformation actually occur and preserve the required relationships? |
 
-Identity continuity can be one domain's preservation requirement, but it must be defined explicitly. It is not a universal consequence of common ancestry. Current consequence standing remains subject to [Temporal Standing](../temporal-standing/README.md).
+[Identity Continuity](../identity-continuity/README.md) is the specialization for preserving an agent's identity under explicit criteria. It is not a universal consequence of common ancestry. Current consequence standing remains subject to [Temporal Standing](../temporal-standing/README.md).
 
 ## Semantic type and proof artifact
 
@@ -111,6 +111,8 @@ The claim's truth and the available evidence are distinct. If evidence is lost, 
 
 | Concept or situation | Relationship or assessment |
 | --- | --- |
+| [Constitutive Kernel](../../models/constitutive-kernel/README.md) | Makes the independent preservation specification explicit for governed computational claims. |
+| [Semantic Lineage](../../models/semantic-lineage/README.md) | Models recorded derivation and admission; a continuity argument must establish its correspondence to the actual lineage. |
 | [Generative Root Geometry](../../models/generative-root-geometry/README.md) | Supplies the model of differentiation and relation; this invariant specifies the preservation requirement. |
 | [Governing Root Geometry](../../models/governing-root-geometry/README.md) | Supplies independently constituted change obligations when the lineage is governed. |
 | [Recursive Geometry Evolution](../../models/recursive-geometry-evolution/README.md) | Requires legitimate successors and migration to preserve the applicable kernel. |

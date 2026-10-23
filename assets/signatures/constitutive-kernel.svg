@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutive Kernel</title>
+  <desc id="desc">A preserved inner kernel is related to the wider geometry whose transformations it governs.</desc>
+  <!-- Copyright 2026 Beau Crawford. SPDX-License-Identifier: CC-BY-4.0 -->
+  <g fill="none" stroke="#737d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m32 5 23 13v28L32 59 9 46V18Z"/>
+    <path d="m32 20 10 6v12l-10 6-10-6V26Z"/>
+    <path d="M32 5v15M9 46l13-8M55 46l-13-8"/>
+  </g>
+</svg>

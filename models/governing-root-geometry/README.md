@@ -111,6 +111,7 @@ Qualification of one version does not automatically qualify amendments, translat
 
 | Concept | Relationship |
 | --- | --- |
+| [Constitutive Kernel](../constitutive-kernel/README.md) | Specifies the obligations and preservation criteria for particular continuity claims under this governing basis. |
 | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Qualifies preservation of constitutive relationships through governed amendment and succession. |
 | [Constitutive Authority Closure](../../invariants/constitutive-authority-closure/README.md) | Connects qualified governing meaning to standing, conforming execution, and actual protected effects. |
 | [Generative Root Geometry](../generative-root-geometry/README.md) | Describes differentiation and origin continuity. Governing status requires the additional constitutive authority modeled here. |

@@ -167,7 +167,7 @@ Three continuity questions remain distinct:
 | Question | Required basis |
 | --- | --- |
 | **Lineage:** Did this configuration descend from the declared origin? | Traceable transformations and preservation of the relevant root relationships. |
-| **Identity:** Does it count as the same agent for this application? | An explicit identity criterion and evidence that the required state, relationships, or commitments survived. |
+| **Identity:** Does it count as the same agent for this application? | [Identity Continuity](../../invariants/identity-continuity/README.md) under explicit criteria, including required state, relationships, and commitments. |
 | **Authority:** May it perform this effect now? | Current, consequence-specific standing at the actual execution boundary. |
 
 A stable identifier can preserve a reference while its referent changes materially. Common ancestry does not settle identity, preserve every property, or carry authorization forward indefinitely. Missing continuity evidence must remain unresolved.
@@ -209,6 +209,7 @@ A separate **Architecture Conformance Argument** binds the claimed properties to
 
 | Concept | Relationship to CGA |
 | --- | --- |
+| [Constitutive Agent Identity](../constitutive-agent-identity/README.md) | Specifies the durable identity, kernel, lineage, and state relationships that may persist across changing agent configurations. |
 | [Authority Independence](../../invariants/authority-independence/README.md) | Requires promotion and protected effects to depend on authority the agent cannot unilaterally create or weaken. |
 | [Constitutive Continuity](../../invariants/constitutive-continuity/README.md) | Requires explicit preservation criteria for agent transformations; common ancestry alone does not establish persistent identity. |
 | [Constraint Geometry](../constraint-geometry/README.md) | Specifies the executable behavioral structure of an agent configuration, separately from current operational state and independently established authority. |
